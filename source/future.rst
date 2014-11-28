@@ -51,7 +51,8 @@ Goals
 How to help
 ===========
 
-* Get involved with one of mainstream :doc:`packaging projects <projects>`.
+* Get involved with one of mainstream :doc:`packaging projects
+  <pypug:projects>`.
 * Help us catalog and discuss the current problems in packaging and
   installation.  See the `The issue tracker for the problems in packaging
   <https://github.com/pypa/packaging-problems/issues>`_ maintained by
