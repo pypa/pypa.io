@@ -7,6 +7,8 @@ Packaging History
 2014
 ----
 
+* :ref:`pypug:setuptools` v8.0 implemented :ref:`PEP440 <PEP440s>` (Python's new
+  versioning scheme).
 * :ref:`PEP453 <PEP453s>`: Being able to bootstrap ``pip`` into Python
   3.4.
 * http://bugs.python.org/issue19407: Modern Installation and Packaging guides on
