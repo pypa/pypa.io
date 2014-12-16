@@ -176,11 +176,9 @@ PEP440 Version Identification and Dependency Specification
 :User Impact: Users will have a clear specification for what's proper
               versioning for Python projects.
 
-:Implementation: :ref:`distlib` has version classes that understand PEP440, and
-                 pip relies on :ref:`distlib`'s implementation in specific
-                 cases. pip also has a `work-in-progress PR
-                 <https://github.com/pypa/pip/pull/1894>`_ that implements
-                 PEP440.
+:Implementation: :ref:`pypug:packaging` implements PEP440 and is used by both
+                 :ref:`pip` and :ref:`pypug:setuptools`. :ref:`pypug:distlib`
+                 also implements PEP440.
 
 
 .. _PEP458s:
