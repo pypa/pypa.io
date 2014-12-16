@@ -132,9 +132,13 @@ PEP453 Explicit bootstrapping of pip in Python installations
 :User Impact: ``pip`` will be available in some Python installations without
                users having to install it.
 
-:Implementation: The goal is to have this for Python 3.4.  PEP453 includes an
-                 `integration timeline
-                 <http://www.python.org/dev/peps/pep-0453/#integration-timeline>`_.
+:Implementation: Python 3.4 included PEP453.
+
+                 .. note::
+
+                    `PEP477`_ backported PEP453 into Python
+                    2.7.9.
+
 
 
 .. _PEP426s:
@@ -243,3 +247,4 @@ PEP470 Using Multi Index Support for External to PyPI Package File Hosting
 .. _PEP440: http://www.python.org/dev/peps/pep-0440/
 .. _PEP458: http://www.python.org/dev/peps/pep-0458/
 .. _PEP470: http://www.python.org/dev/peps/pep-0470/
+.. _PEP477: http://www.python.org/dev/peps/pep-0477/
