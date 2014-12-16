@@ -105,6 +105,12 @@ PEP438 Transitioning to release-file hosting on PyPI
 :Summary: Specifies a two-step plan to phase out the primary use of external download
           links on PyPI, for the sake of security and installation speed.
 
+          .. note::
+
+             See :ref:`PEP470 <PEP470s>` (currently still a draft), which goes
+             further and deprecates the use of external hosting completely.
+
+
 :User Impact:  :ref:`pip` (as of v1.5) will be faster and more secure by default.
 
 :Implementation: Both :ref:`pip` and PyPI made changes during 2013 to implement
@@ -200,7 +206,7 @@ PEP458 Surviving a Compromise of PyPI
 
 
 
-.. _PEP70s:
+.. _PEP470s:
 
 PEP470 Using Multi Index Support for External to PyPI Package File Hosting
 **************************************************************************
