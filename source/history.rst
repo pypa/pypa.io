@@ -8,8 +8,9 @@ Packaging History
 ----
 
 * :ref:`pypug:setuptools` v8.0 and :ref:`pypug:pip` v6.0 implemented
-  :ref:`PEP440 <PEP440s>` (Python's new versioning scheme).  Both project now
+  :ref:`PEP440 <PEP440s>` (Python's new versioning scheme).  Both projects now
   depend on the project :ref:`pypug:packaging` for this support.
+* `PEP477`_ backported :ref:`PEP453 <PEP453s>` into Python 2.7.9.
 * :ref:`PEP453 <PEP453s>`: Being able to bootstrap ``pip`` into Python
   3.4.
 * http://bugs.python.org/issue19407: Modern Installation and Packaging guides on
@@ -107,6 +108,7 @@ development of :ref:`distutils`.
 .. _PEP241: http://www.python.org/dev/peps/pep-0241
 .. _PEP314: http://www.python.org/dev/peps/pep-0314
 .. _PEP301: http://www.python.org/dev/peps/pep-0301
+.. _PEP477: http://www.python.org/dev/peps/pep-0477
 .. _distribute: https://pypi.python.org/pypi/distribute
 
 ----
