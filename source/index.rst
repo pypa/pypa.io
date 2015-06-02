@@ -11,7 +11,7 @@ They host projects on `github <https://github.com/pypa>`_ and `bitbucket
 <https://groups.google.com/forum/#!forum/pypa-dev>`_ and `distutils-sig
 <http://mail.python.org/mailman/listinfo/distutils-sig>`_ mailing lists.
 
-For a listing of their most important project, see :ref:`here
+For a listing of their most important projects, see :ref:`here
 <pypug:pypa_projects>`.
 
 For a user introduction to packaging, see the `Python Packaging User Guide
