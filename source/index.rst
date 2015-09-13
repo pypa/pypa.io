@@ -23,3 +23,4 @@ For a user introduction to packaging, see the `Python Packaging User Guide
    future
    peps
    history
+   code-of-conduct
