@@ -3,8 +3,8 @@ Python Packaging Authority
 ==========================
 
 
-The Python Packaging Authority is a working group that maintains many of the
-relevant projects in Python packaging.
+The Python Packaging Authority (PyPA) is a working group that maintains many of
+the relevant projects in Python packaging.
 
 They host projects on `github <https://github.com/pypa>`_ and `bitbucket
 <https://bitbucket.org/pypa>`_, and discuss issues on the `pypa-dev
@@ -21,6 +21,8 @@ For a user introduction to packaging, see the `Python Packaging User Guide
    :maxdepth: 1
 
    future
+   help
+   presentations
    peps
    history
    code-of-conduct
