@@ -219,7 +219,7 @@ PEP470 Using Multi Index Support for External to PyPI Package File Hosting
 
 :PEP Link: `PEP470`_
 
-:PEP Status: Draft
+:PEP Status: Accepted
 
 :Summary: PyPI would no longer support projects configuring external hosting
           links that pip crawls and installs from automatically.  Projects would
