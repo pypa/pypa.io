@@ -4,6 +4,19 @@
 Packaging History
 =================
 
+2015
+----
+
+* :ref:`pip` (v7) started caching built :term:`wheels <pypug:Wheel>`, and
+  installing from them, instead of installing directly from :term:`sdists
+  <pypug:Source Distribution (or "sdist")>`.
+* :ref:`pip` (v7) started supporting ``--install-option`` and
+  ``--global-option`` per requirement in requirement files.
+* :ref:`setuptools` (v18.3) now allows disabling of the manipulation of the
+  sys.path during the processing of the easy-install.pth file.
+* :ref:`PEP470 <PEP470s>`, which deprecated external, non-PyPI hosting, was
+  accepted.
+
 2014
 ----
 
