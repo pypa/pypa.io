@@ -14,17 +14,17 @@ Packaging History
   ``--global-option`` per requirement in requirement files.
 * :ref:`setuptools` (v18.3) now allows disabling of the manipulation of the
   sys.path during the processing of the easy-install.pth file.
-* :ref:`PEP470 <PEP470s>`, which deprecated external, non-PyPI hosting, was
+* `PEP470`_, which deprecated external, non-PyPI hosting, was
   accepted.
 
 2014
 ----
 
-* :ref:`pypug:setuptools` v8.0 and :ref:`pypug:pip` v6.0 implemented
-  :ref:`PEP440 <PEP440s>` (Python's new versioning scheme).  Both projects now
-  depend on the project :ref:`pypug:packaging` for this support.
-* `PEP477`_ backported :ref:`PEP453 <PEP453s>` into Python 2.7.9.
-* :ref:`PEP453 <PEP453s>`: Being able to bootstrap ``pip`` into Python
+* :ref:`pypug:setuptools` v8.0 and :ref:`pypug:pip` v6.0 implemented `PEP440`_
+  (Python's new versioning scheme).  Both projects now depend on the project
+  :ref:`pypug:packaging` for this support.
+* `PEP477`_ backported `PEP453`_ into Python 2.7.9.
+* `PEP453`_: Being able to bootstrap ``pip`` into Python
   3.4.
 * http://bugs.python.org/issue19407: Modern Installation and Packaging guides on
   python.org.
@@ -59,7 +59,7 @@ Packaging History
   <http://pip.pypa.io/en/latest/installing.html>`_ to clarify that
   setuptools and pip are the "base" of the bootstrapping hierarchy
 * setuptools available as a cross platform wheel on PyPI
-* :ref:`PEP438s` and the associated pip changes.
+* `PEP438`_ and the associated pip changes.
 * :ref:`pip` (v1.4) added support for building and installing :term:`wheels
   <Wheel>`
 * :term:`PyPA <Python Packaging Authority (PyPA)>` became the maintainer for the
@@ -67,7 +67,7 @@ Packaging History
   to Packaging".
 * Packaging Dev and User Summits were held at Pycon 2013 to share ideas on the
   future of packaging. [3]_ [4]_
-* :ref:`PEP425 <PEP425s>` and :ref:`PEP427 <PEP427s>` were accepted.  Together,
+* `PEP425`_ and `PEP427`_ were accepted.  Together,
   they specify a built-package format for Python called :term:`Wheel`.
 
 
@@ -123,6 +123,17 @@ development of :ref:`distutils`.
 .. _PEP301: http://www.python.org/dev/peps/pep-0301
 .. _PEP477: http://www.python.org/dev/peps/pep-0477
 .. _distribute: https://pypi.python.org/pypi/distribute
+.. _PEP345: http://www.python.org/dev/peps/pep-0345/
+.. _PEP376: http://www.python.org/dev/peps/pep-0376/
+.. _PEP425: http://www.python.org/dev/peps/pep-0425/
+.. _PEP427: http://www.python.org/dev/peps/pep-0427/
+.. _PEP438: http://www.python.org/dev/peps/pep-0438/
+.. _PEP453: http://www.python.org/dev/peps/pep-0453/
+.. _PEP426: http://www.python.org/dev/peps/pep-0426/
+.. _PEP386: http://www.python.org/dev/peps/pep-0386/
+.. _PEP440: http://www.python.org/dev/peps/pep-0440/
+.. _PEP458: http://www.python.org/dev/peps/pep-0458/
+.. _PEP470: http://www.python.org/dev/peps/pep-0470/
 
 ----
 
