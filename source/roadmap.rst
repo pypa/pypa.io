@@ -227,6 +227,19 @@ Vendor distutils into setuptools
 :Status: Under consideration.
 
 
+.. _`Warehouse`:
+
+The New & Improved PyPI
+~~~~~~~~~~~~~~~~~~~~~~~
+
+:Summary: A rehaul of PyPI built on `Warehouse <https://github.com/pypa/warehouse>`_
+
+:Issues: `pypa/warehouse/issues <https://github.com/pypa/warehouse/issues>`_
+
+:Status:  Under Development
+
+
+
 .. _`TUF`:
 
 PyPI Integrate TUF
@@ -239,7 +252,7 @@ PyPI Integrate TUF
 :PEP Src: `pep-0458-tuf-online-keys.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0458-tuf-online-keys.rst>`_
 
-:Issues/PRss: `pypa/interoperability-peps/labels/PEP458
+:Issues/PRs: `pypa/interoperability-peps/labels/PEP458
                  <https://github.com/pypa/interoperability-peps/labels/PEP458>`_
 
 :Status:  `PEP458`_ is in Draft status.
