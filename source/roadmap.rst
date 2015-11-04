@@ -133,6 +133,9 @@ Source Distribution 2.0
 
 :Status: Discussions are ongoing on distutils-sig.  Some proposals involve
          solutions that solve sdist 2.0 and build neutrality with a single plan.
+         A central part of the discussion is whether sdists should (or can) be
+         required to hold static metadata (vs. requiring a build command to
+         generate the metadata).
 
 
 .. _`Installation Database Updates`:
