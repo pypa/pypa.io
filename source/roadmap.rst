@@ -288,8 +288,10 @@ Specs vs PEPs
           that are organized together in the PyPUG.  As it is, it's too hard to
           know what really represents the finalized set of PyPA PEPs.
 
-:Status: Marcus Smith and Nick Coghlan have both expressed interest in
-         implementing this idea in the PyPUG (or at least somewhere)
+:Issues/PRs: `pypa.io/issues/11 <https://github.com/pypa/pypa.io/issues/11>`_
+
+:Status: Nick Coghlan has started working on migrating to this approach, using
+         ``pypa.io/specifications/`` as the stable base URL.
 
 
 .. _`PyPA PEP Process`:
@@ -306,7 +308,9 @@ PyPA PEP Process
 :Issues/PRs: `interoperability-peps/issues/53
         <https://github.com/pypa/interoperability-peps/issues/53>`_
 
-:Status:  No current activity
+
+:Status:  This is being worked on in conjunction with the :ref:`Specs vs PEPs`
+          work.
 
 
 
