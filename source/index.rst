@@ -21,6 +21,7 @@ For a user introduction to packaging, see the `Python Packaging User Guide
    :maxdepth: 1
 
    future
+   specifications
    roadmap
    help
    presentations
