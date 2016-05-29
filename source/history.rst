@@ -117,7 +117,7 @@ development of :ref:`distutils`.
 
 .. _distutils-sig: http://www.python.org/community/sigs/current/distutils-sig/
 .. _catalog-sig: https://mail.python.org/mailman/listinfo/catalog-sig
-.. _`Python Packaging User Guide`: https://python-packaging-user-guide.readthedocs.org/en/latest/
+.. _`Python Packaging User Guide`: https://python-packaging-user-guide.readthedocs.io/en/latest/
 .. _PEP241: http://www.python.org/dev/peps/pep-0241
 .. _PEP314: http://www.python.org/dev/peps/pep-0314
 .. _PEP301: http://www.python.org/dev/peps/pep-0301
