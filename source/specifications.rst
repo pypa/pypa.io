@@ -88,19 +88,28 @@ see:
 * `Changes in PEP 440 <https://www.python.org/dev/peps/pep-0440/#summary-of-changes-to-pep-440>`_
 * `Changes in PEP 503 <https://www.python.org/dev/peps/pep-0503/#changes>`_
 
-PyPA core reviewers that are also PEP editos are responsible for deciding which
+PyPA core reviewers that are also PEP editors are responsible for deciding which
 of these changes can just be accepted (e.g. fixing a typo), which need to be
 reviewed by the relevant responsible decision maker before being accepted, and
 which need to be escalated to the full Python Enhancement Proposal process.
 
-One current exception to this policy is the core metadata specification in
-PEP 345, where additional fields and the selective superceding of various
+Current exceptions to this policy exist for:
+
+* the core metadata specification in PEP 345
+* the installed distributions metadata layout specification in PEP 376
+
+For historical reasons, these PEPs are currently maintained in a hybrid
+state where additional fields and the selective superceding of various
 sections is documented directly in the specification section of the Python
-Packaging User Guide.
+Packaging User Guide rather than being incorporated into the original PEP.
 
 .. With the definition and adoption of metadata 2.0 deferred indefinitely,
-   these changes should probably be rolled into a metadata 1.3 informational
-   PEP that follows the standard update policy described above
+   the PyPUG changes to PEP 345 should probably be rolled into a metadata 1.3
+   informational PEP that follows the standard update policy described above
+
+   Similarly, a new PEP could describe the installation metadata as actually
+   emitted by pip, rather than as originally proposed in PEP 376, without
+   needing to add anything new to it
 
 
 Handling major updates
@@ -117,6 +126,6 @@ metadata format indefinitely rather than upgrading to the revised format.
 
 For package index interfaces, major updates are handled as either Process or
 Standards Track PEPs targeting the Python Package Index as the reference
-implemetation. All such PEPs that introduce backwards incompatible changes
+implementation. All such PEPs that introduce backwards incompatible changes
 are required to define a suitable transition plan for affected software
 publishers and tool developers.
