@@ -11,10 +11,6 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os
-
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -29,7 +25,7 @@ extensions = ['sphinx.ext.intersphinx']
 intersphinx_cache_limit = 0
 intersphinx_mapping = {
     'pypug': ('https://packaging.python.org/en/latest/', None)
-    }
+}
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -99,28 +95,20 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
-html_theme = 'default'
-if not on_rtd:
-    try:
-        import sphinx_rtd_theme
-        html_theme = 'sphinx_rtd_theme'
-    except ImportError:
-        pass
-
+html_theme = 'pypa_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'collapsiblesidebar': True,
+    'externalrefs': True,
+    'navigation_depth': 2,
+    'issues_url': 'https://github.com/pypa/pypa.io/issues'
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = []
-if not on_rtd:
-    try:
-        import sphinx_rtd_theme
-        html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    except ImportError:
-        pass
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -141,18 +129,23 @@ if not on_rtd:
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['themes/pug/static']
+html_static_path = []
 
-# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
-# using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+# If not None, a 'Last updated on:' timestamp is inserted at every page
+# bottom, using the given strftime format.
+# The empty string is equivalent to '%b %d, %Y'.
+#
+html_last_updated_fmt = ''
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
 #html_use_smartypants = True
 
-# Custom sidebar templates, maps document names to template names.
-html_sidebars = {}
+# Custom sidebar templates, filenames relative to this file.
+html_sidebars = {
+    '**': ['localtoc.html', 'relations.html'],
+    'index': ['localtoc.html']
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
