@@ -72,6 +72,20 @@ Otherwise, the default BDFL-Delegate depends on the area the PEP affects:
 * Package Distribution Metadata: lead CPython representative on distutils-sig
 * Package Index Interfaces: lead PyPI maintainer
 
+Provisional Acceptance
+~~~~~~~~~~~~~~~~~~~~~~
+
+PyPA has its own variant of the standard library's provisional modules, which
+is provisional interoperability specifications.
+
+These are specifications which have been accepted for implementation in the
+core packaging tools (PyPI, pip, etc), but are still considered subject to
+potentially backwards incompatible amendments if real world experience
+indicates that there are critical problems in the interface design that make
+it hard to implement and/or use correctly.
+
+When a PEP has only been provisionally accepted, this will be noted in the
+text of the affected PEP.
 
 Handling fixes and other minor updates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
