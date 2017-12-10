@@ -313,10 +313,10 @@ Specs vs PEPs
 PyPA PEP Process
 ~~~~~~~~~~~~~~~~
 
-:Summary: At it's core, PyPA is consistent with the Python PEP process, but
+:Summary: At its core, PyPA is consistent with the Python PEP process, but
           around the edges, it has a unique workflow that should be documented,
           with the goal being to increase involvement.  This process may change
-          if the Python PEP database migrates to using gitlab as specified in
+          if the Python PEP database migrates to using GitLab as specified in
           `PEP507`_.
 
 :Issues/PRs: `interoperability-peps/issues/53
