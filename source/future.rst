@@ -29,7 +29,7 @@ PyPA's current goals are:
   * Clearly delineates the phases of distribution
   * Allows for multiple interacting tools vs one monolithic tool
   * Specifically allows for alternative build systems, i.e. a `"MetaBuild"
-    <http://www.python.org/dev/peps/pep-0426/#metabuild-system>`_ system.
+    <http://www.python.org/dev/peps/pep-0518>`_ system.
 
 * To improve the docs for users, including the `Python Packaging User Guide`_,
   anything related to packaging on `docs.python.org`_, and the project docs for
