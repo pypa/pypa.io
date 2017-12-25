@@ -16,7 +16,7 @@ Presentations & Articles
 
   * Python Packaging 2.0: Playing Well With Others (`video
     <https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article
-    <http://lwn.net/Articles/580399>`_)
+    <https://lwn.net/Articles/580399/>`_)
 
 * PyCon US, April 2014
 

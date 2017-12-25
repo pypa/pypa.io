@@ -249,8 +249,7 @@ PyPI Integrate TUF
 ~~~~~~~~~~~~~~~~~~
 
 :Summary: An effort to integrate PyPI with the `"The Update Framework" (TUF)
-          <http://www.updateframework.com/projects/project>`_.  This is
-          specified in `PEP458`_
+          <https://theupdateframework.github.io>`_.  This is specified in `PEP458`_
 
 :PEP Src: `pep-0458-tuf-online-keys.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0458-tuf-online-keys.rst>`_
@@ -314,12 +313,12 @@ PyPA PEP Process
 
 
 
-.. _PEP345: http://www.python.org/dev/peps/pep-0345/
-.. _PEP425: http://www.python.org/dev/peps/pep-0425/
-.. _PEP426: http://www.python.org/dev/peps/pep-0426/
-.. _PEP427: http://www.python.org/dev/peps/pep-0427/
-.. _PEP376: http://www.python.org/dev/peps/pep-0376/
-.. _PEP458: http://www.python.org/dev/peps/pep-0458/
-.. _PEP459: http://www.python.org/dev/peps/pep-0459/
-.. _PEP496: http://www.python.org/dev/peps/pep-0496/
-.. _PEP507: http://www.python.org/dev/peps/pep-0507/
+.. _PEP345: https://www.python.org/dev/peps/pep-0345/
+.. _PEP425: https://www.python.org/dev/peps/pep-0425/
+.. _PEP426: https://www.python.org/dev/peps/pep-0426/
+.. _PEP427: https://www.python.org/dev/peps/pep-0427/
+.. _PEP376: https://www.python.org/dev/peps/pep-0376/
+.. _PEP458: https://www.python.org/dev/peps/pep-0458/
+.. _PEP459: https://www.python.org/dev/peps/pep-0459/
+.. _PEP496: https://www.python.org/dev/peps/pep-0496/
+.. _PEP507: https://www.python.org/dev/peps/pep-0507/

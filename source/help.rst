@@ -11,4 +11,4 @@ How to Help
 * Submit Issues and PRs to the `PyPA PEP Development Repository
   <https://github.com/pypa/interoperability-peps>`_
 * Discuss ideas related to packaging at `distutils-sig
-  <http://mail.python.org/mailman/listinfo/distutils-sig>`_.
+  <https://mail.python.org/mailman/listinfo/distutils-sig>`_.

@@ -26,14 +26,14 @@ Packaging History
 * `PEP477`_ backported `PEP453`_ into Python 2.7.9.
 * `PEP453`_: Being able to bootstrap ``pip`` into Python
   3.4.
-* http://bugs.python.org/issue19407: Modern Installation and Packaging guides on
+* https://bugs.python.org/issue19407: Modern Installation and Packaging guides on
   python.org.
 * :ref:`virtualenv` (v1.11) started installing pip & setuptools using wheels.
 * :ref:`pip` (v1.5.1) became available as a cross platform wheel on PyPI.
 * :ref:`pip` (v1.5.1) stop requiring :ref:`setuptools` to install wheels.
 * ``get-pip.py`` doesn't require setuptools to be installed first
 * ``get-pip.py`` installs setuptools for you, if you don't already have it
-* `PEP449 <http://www.python.org/dev/peps/pep-0449>`_: Removal of the DNS based
+* `PEP449 <https://www.python.org/dev/peps/pep-0449/>`_: Removal of the DNS based
   mirror autodiscovery
 * `Refactored the pip docs <https://github.com/pypa/pip/pull/1556>`_ to be
   consistent with the `"PyPA Standard Docs Template"
@@ -56,7 +56,7 @@ Packaging History
 * easy_install supports additional hashes beyond md5 (pip already did)
 * Fastly CDN enabled for PyPI (donated)
 * Restructured the `pip install docs
-  <http://pip.pypa.io/en/latest/installing.html>`_ to clarify that
+  <https://pip.pypa.io/en/latest/installing/>`_ to clarify that
   setuptools and pip are the "base" of the bootstrapping hierarchy
 * setuptools available as a cross platform wheel on PyPI
 * `PEP438`_ and the associated pip changes.
@@ -115,31 +115,31 @@ distributions.
 development of :ref:`distutils`.
 
 
-.. _distutils-sig: http://www.python.org/community/sigs/current/distutils-sig/
+.. _distutils-sig: https://www.python.org/community/sigs/current/distutils-sig/
 .. _catalog-sig: https://www.python.org/community/sigs/retired/catalog-sig/
 .. _`Python Packaging User Guide`: https://packaging.python.org
-.. _PEP241: http://www.python.org/dev/peps/pep-0241
-.. _PEP314: http://www.python.org/dev/peps/pep-0314
-.. _PEP301: http://www.python.org/dev/peps/pep-0301
-.. _PEP477: http://www.python.org/dev/peps/pep-0477
+.. _PEP241: https://www.python.org/dev/peps/pep-0241/
+.. _PEP314: https://www.python.org/dev/peps/pep-0314/
+.. _PEP301: https://www.python.org/dev/peps/pep-0301/
+.. _PEP477: https://www.python.org/dev/peps/pep-0477/
 .. _distribute: https://pypi.python.org/pypi/distribute
-.. _PEP345: http://www.python.org/dev/peps/pep-0345/
-.. _PEP376: http://www.python.org/dev/peps/pep-0376/
-.. _PEP425: http://www.python.org/dev/peps/pep-0425/
-.. _PEP427: http://www.python.org/dev/peps/pep-0427/
-.. _PEP438: http://www.python.org/dev/peps/pep-0438/
-.. _PEP453: http://www.python.org/dev/peps/pep-0453/
-.. _PEP426: http://www.python.org/dev/peps/pep-0426/
-.. _PEP386: http://www.python.org/dev/peps/pep-0386/
-.. _PEP440: http://www.python.org/dev/peps/pep-0440/
-.. _PEP458: http://www.python.org/dev/peps/pep-0458/
-.. _PEP470: http://www.python.org/dev/peps/pep-0470/
+.. _PEP345: https://www.python.org/dev/peps/pep-0345/
+.. _PEP376: https://www.python.org/dev/peps/pep-0376/
+.. _PEP425: https://www.python.org/dev/peps/pep-0425/
+.. _PEP427: https://www.python.org/dev/peps/pep-0427/
+.. _PEP438: https://www.python.org/dev/peps/pep-0438/
+.. _PEP453: https://www.python.org/dev/peps/pep-0453/
+.. _PEP426: https://www.python.org/dev/peps/pep-0426/
+.. _PEP386: https://www.python.org/dev/peps/pep-0386/
+.. _PEP440: https://www.python.org/dev/peps/pep-0440/
+.. _PEP458: https://www.python.org/dev/peps/pep-0458/
+.. _PEP470: https://www.python.org/dev/peps/pep-0470/
 
 ----
 
-.. [1] http://mail.python.org/pipermail/distutils-sig/2013-June/021160.html
-.. [2] http://mail.python.org/pipermail/distutils-sig/2013-March/020224.html
+.. [1] https://mail.python.org/pipermail/distutils-sig/2013-June/021160.html
+.. [2] https://mail.python.org/pipermail/distutils-sig/2013-March/020224.html
 .. [3] https://us.pycon.org/2013/community/openspaces/packaginganddistributionminisummit/
-.. [4] http://www.pyvideo.org/video/1731/panel-directions-for-packaging
-.. [5] http://mail.python.org/pipermail/distutils-sig/2013-March/020127.html
-.. [6] http://mail.python.org/pipermail/python-dev/2012-June/120430.html
+.. [4] http://pyvideo.org/video/1731/panel-directions-for-packaging/
+.. [5] https://mail.python.org/pipermail/distutils-sig/2013-March/020127.html
+.. [6] https://mail.python.org/pipermail/python-dev/2012-June/120430.html

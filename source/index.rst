@@ -9,7 +9,7 @@ the relevant projects in Python packaging.
 They host projects on `github <https://github.com/pypa>`_ and `bitbucket
 <https://bitbucket.org/pypa>`_, and discuss issues on the `pypa-dev
 <https://groups.google.com/forum/#!forum/pypa-dev>`_ and `distutils-sig
-<http://mail.python.org/mailman/listinfo/distutils-sig>`_ mailing lists.
+<https://mail.python.org/mailman/listinfo/distutils-sig>`_ mailing lists.
 
 For a listing of their most important projects, see :ref:`here
 <pypug:pypa_projects>`.
