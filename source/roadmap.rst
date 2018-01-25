@@ -4,7 +4,7 @@
 PyPA Roadmap
 ============
 
-:Last Reviewed: 2015-11-02
+:Last Reviewed: 2017-12-10
 
 A status page for the  major PyPA Todo items that will determine the course of Python Packaging.
 
@@ -30,7 +30,11 @@ Metadata 2.0
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP426
                  <https://github.com/pypa/interoperability-peps/labels/PEP426>`_
 
-:Status: `PEP426`_ is in Draft status.
+:Status: `PEP426`_ is `in Deferred status
+         <https://www.python.org/dev/peps/pep-0426/#note-on-pep-deferral>`_,
+         and `PEP 566 (Metadata 1.3)
+         <https://www.python.org/dev/peps/pep-0566/>`_ is a Draft
+         introduced in December 2017.
 
 
 .. _`Environment Markers Update`:
@@ -40,7 +44,7 @@ Environment Markers Update
 
 :Summary: An update to the notion of "Environment Markers" introduced in
           `PEP345`_. `PEP426`_ was originally scoped to include this update, but
-          it's being moved out to `PEP496`_.
+          it was moved out to `PEP496`_.
 
 :PEP Src: `pep-0496-environment-markers.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0496-environment-markers.rst>`_
@@ -48,7 +52,9 @@ Environment Markers Update
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP496
                  <https://github.com/pypa/interoperability-peps/labels/PEP496>`_
 
-:Status: `PEP496`_ is in Draft status.
+:Status: `PEP496`_ has been rejected in favor of the more
+         comprehensive `PEP 508
+         <https://www.python.org/dev/peps/pep-0508>`_.
 
 
 .. _`Optional Dependencies ("Extras")`:
@@ -63,7 +69,7 @@ Optional Dependencies ("Extras")
 :Issues/PRs: `pypa/interoperability-peps/labels/Extras
                  <https://github.com/pypa/interoperability-peps/labels/Extras>`_
 
-:Status: Currently covered in `PEP426`_ (which is in Draft status), but will
+:Status: Currently covered in `PEP426`_ (which is in Deferred status), but will
          likely be broken out.
 
 
@@ -79,7 +85,7 @@ Metadata Extensions
 :Issues/PRs: `pypa/interoperability-peps/labels/Extensions
                  <https://github.com/pypa/interoperability-peps/labels/Extensions>`_
 
-:Status: Currently covered in `PEP426`_ (which is in Draft status), but may be
+:Status: Currently covered in `PEP426`_ (which is in Deferred status), but may be
          broken out.
 
 
@@ -98,7 +104,8 @@ Standard Python Extensions
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP459
                  <https://github.com/pypa/interoperability-peps/labels/PEP459>`_
 
-:Status: `PEP459`_ is in Draft status.
+:Status: `PEP459`_ is `in Deferred
+         status <https://www.python.org/dev/peps/pep-0459/#pep-deferral>`_.
 
 
 .. _`Build Neutrality`:
@@ -195,8 +202,9 @@ pip Dependency Resolution
 
 :Issues/PRs: `pip/issues/988 <https://github.com/pypa/pip/issues/988>`_
 
-:Status: Robert Collins is known to be working on a new resolver in
-         `pip/pull/2716 <https://github.com/pypa/pip/pull/2716>`_
+:Status: Robert Collins was working on a new resolver in
+         `pip/pull/2716 <https://github.com/pypa/pip/pull/2716>`_;
+         Pradyun Gedam may restart that work.
 
 .. _`pip upgrade`:
 
@@ -239,8 +247,13 @@ The New & Improved PyPI
 
 :Issues: `pypa/warehouse/issues <https://github.com/pypa/warehouse/issues>`_
 
-:Status:  Under Development
-
+:Status: Under development. A pre-production version is `up and
+          running <http://pypi.io/>`_ and a team is working on getting
+          it to production status so it can replace legacy PyPI (as
+          mentioned `on pypa-dev
+          <https://groups.google.com/forum/#!topic/pypa-dev/MxmubyZwnSM>`_). See
+          `its development roadmap
+          <https://wiki.python.org/psf/WarehouseRoadmap>`_.
 
 
 .. _`TUF`:
@@ -275,8 +288,9 @@ New PyPUG Tutorials
 
 :Issues/PRs: `warehouse/issues/729 <https://github.com/pypa/warehouse/issues/729>`_
 
-:Status: Nicole (from Warehouse team) and Marcus are working together on this
-         along with a team of volunteer writers.
+:Status: Nicole (from Warehouse team) and Marcus are working together
+         on this along with a team of volunteer writers; see
+         `pypa/python-packaging-user-guide/tree/master/source/tutorials <https://github.com/pypa/python-packaging-user-guide/tree/master/source/tutorials>`_.
 
 
 .. _`Specs vs PEPs`:
@@ -299,10 +313,10 @@ Specs vs PEPs
 PyPA PEP Process
 ~~~~~~~~~~~~~~~~
 
-:Summary: At it's core, PyPA is consistent with the Python PEP process, but
+:Summary: At its core, PyPA is consistent with the Python PEP process, but
           around the edges, it has a unique workflow that should be documented,
           with the goal being to increase involvement.  This process may change
-          if the Python PEP database migrates to using gitlab as specified in
+          if the Python PEP database migrates to using GitLab as specified in
           `PEP507`_.
 
 :Issues/PRs: `interoperability-peps/issues/53
@@ -314,12 +328,12 @@ PyPA PEP Process
 
 
 
-.. _PEP345: http://www.python.org/dev/peps/pep-0345/
-.. _PEP425: http://www.python.org/dev/peps/pep-0425/
-.. _PEP426: http://www.python.org/dev/peps/pep-0426/
-.. _PEP427: http://www.python.org/dev/peps/pep-0427/
-.. _PEP376: http://www.python.org/dev/peps/pep-0376/
-.. _PEP458: http://www.python.org/dev/peps/pep-0458/
-.. _PEP459: http://www.python.org/dev/peps/pep-0459/
-.. _PEP496: http://www.python.org/dev/peps/pep-0496/
-.. _PEP507: http://www.python.org/dev/peps/pep-0507/
+.. _PEP345: https://www.python.org/dev/peps/pep-0345/
+.. _PEP425: https://www.python.org/dev/peps/pep-0425/
+.. _PEP426: https://www.python.org/dev/peps/pep-0426/
+.. _PEP427: https://www.python.org/dev/peps/pep-0427/
+.. _PEP376: https://www.python.org/dev/peps/pep-0376/
+.. _PEP458: https://www.python.org/dev/peps/pep-0458/
+.. _PEP459: https://www.python.org/dev/peps/pep-0459/
+.. _PEP496: https://www.python.org/dev/peps/pep-0496/
+.. _PEP507: https://www.python.org/dev/peps/pep-0507/
