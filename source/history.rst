@@ -98,7 +98,7 @@ Packaging History
 * :ref:`pip` (v1.3) and :ref:`easy_install <setuptools>` (v0.7) use
   verified SSL by default (`pip release notes`_)
 * easy_install supports additional hashes beyond md5 (pip already did)
-* Fastly CDN enabled for PyPI (donated)
+* `Fastly CDN enabled`_ for PyPI (donated)
 * Restructured the `pip install docs
   <http://pip.pypa.io/en/latest/installing.html>`_ to clarify that
   setuptools and pip are the "base" of the bootstrapping hierarchy
@@ -161,6 +161,7 @@ development of :ref:`distutils`.
 .. _distutils-sig: http://www.python.org/community/sigs/current/distutils-sig/
 .. _catalog-sig: https://mail.python.org/mailman/listinfo/catalog-sig
 .. _peep: https://pypi.org/project/peep/
+.. _`Fastly CDN enabled`: https://mail.python.org/pipermail/distutils-sig/2013-May/020848.html
 .. _`Python Packaging User Guide`: https://python-packaging-user-guide.readthedocs.io/en/latest/
 .. _distribute: https://pypi.python.org/pypi/distribute
 .. _`MOSS grant for PyPI`: https://pyfound.blogspot.com/2017/11/the-psf-awarded-moss-grant-pypi.html
