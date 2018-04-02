@@ -247,13 +247,14 @@ The New & Improved PyPI
 
 :Issues: `pypa/warehouse/issues <https://github.com/pypa/warehouse/issues>`_
 
-:Status: Under development. A pre-production version is `up and
-          running <http://pypi.io/>`_ and a team is working on getting
-          it to production status so it can replace legacy PyPI (as
-          mentioned `on pypa-dev
+:Status: Under development. A beta version is `up and running
+          <http://pypi.org/>`_ and a team is working on getting it to
+          production status so it can replace legacy PyPI (as
+          announced `on pypa-dev
           <https://groups.google.com/forum/#!topic/pypa-dev/MxmubyZwnSM>`_). See
           `its development roadmap
-          <https://wiki.python.org/psf/WarehouseRoadmap>`_.
+          <https://wiki.python.org/psf/WarehouseRoadmap>`_. Legacy
+          PyPI shutdown planned for late April 2018.
 
 
 .. _`TUF`:

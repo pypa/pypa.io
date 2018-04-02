@@ -7,6 +7,8 @@ Packaging History
 2018
 ----
 
+* Warehouse installation at pypi.org `entered beta phase
+  <https://mail.python.org/pipermail/python-announce-list/2018-March/011883.html>`_.
 * :pep:`566` accepted, adding better package metadata.
 
 2017
