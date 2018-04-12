@@ -56,6 +56,10 @@ Presentations & Articles
   * `Running Vintage Software: PyPI's Aging Codebase
     <https://2017.northbaypython.org/schedule/presentation/5/>`_
 
+* Linux Weekly News, April 2018
+
+  * `A new package index for Python <https://lwn.net/SubscriberLink/751458/81b2759e7025d6b9/>`_
+
 * Personal essays
 
   * `Nick Coghlan: Incremental Plans to Improve Python Packaging
