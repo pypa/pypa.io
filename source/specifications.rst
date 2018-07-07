@@ -59,7 +59,7 @@ authority to approve (or reject) that PEP.
 
 Otherwise, the default BDFL-Delegate depends on the area the PEP affects.
 
-* Package Distribution Metadata PEPs: Nick Coghlan
+* Package Distribution Metadata PEPs: Paul Moore
 * Package Index Interface PEPs: Donald Stufft
 
 For Package Distribution Metadata, the default BDFL-Delegate was
