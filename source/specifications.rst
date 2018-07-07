@@ -33,16 +33,6 @@ PyPA interoperability specifications are separated into two categories:
 * `Package Distribution Metadata <https://packaging.python.org/specifications/#package-distribution-metadata>`_
 * `Package Index Interfaces <https://packaging.python.org/specifications/#package-index-interfaces>`_
 
-For Package Distribution Metadata, the default responsible decision maker is
-the lead CPython representative on distutils-sig.
-
-The current lead CPython representative on distutils-sig is Nick Coghlan.
-
-For Package Index Interfaces, the default responsible decision maker is
-the lead maintainer for the `Python Package Index <https://pypi.org>`__.
-
-The current lead PyPI maintainer is Donald Stufft.
-
 
 Proposing new specifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -63,14 +53,22 @@ Whenever a new PEP is put forward on distutils-sig, any PyPA core
 reviewer that believes they are suitably experienced to make the final
 decision on that PEP may offer to serve as the BDFL's delegate (or
 "PEP czar") for that PEP. If their self-nomination is accepted by the
-other PyPA core reviewers, the lead PyPI maintainer and the lead
-CPython representative on distutils-sig, then they will have the
+other PyPA core reviewers, the lead PyPI maintainer and the default
+BDFL delegate for package distribution metadata PEPs, then they will have the
 authority to approve (or reject) that PEP.
 
-Otherwise, the default BDFL-Delegate depends on the area the PEP affects:
+Otherwise, the default BDFL-Delegate depends on the area the PEP affects.
 
-* Package Distribution Metadata: lead CPython representative on distutils-sig
-* Package Index Interfaces: lead PyPI maintainer
+* Package Distribution Metadata PEPs: Nick Coghlan
+* Package Index Interface PEPs: Donald Stufft
+
+For Package Distribution Metadata, the default BDFL-Delegate was
+originally appointed directly by Guido van Rossum as Python's BDFL (hence the
+use of the term ``BDFL-Delegate``), but is now nominated by the previous
+default BDFL-Delegate (and the transfer of delegation approved by Guido).
+
+For Package Index Interfaces, the default responsible decision maker is
+the lead maintainer for the `Python Package Index <https://pypi.org>`__.
 
 Provisional Acceptance
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -90,8 +88,29 @@ text of the affected PEP.
 Handling fixes and other minor updates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The preferred approach to handling fixes and other minor updates adopted for
-all recent interoperability specifications is to submit an issue and/or pull
+The preferred approach to handling corrections and clarifications for all
+recent interoperability specifications is to designate in the PEP that
+the actively maintained version of the specification is hosted in the
+:ref:`PyPA Specifications <pypug:specifications>` section of the user guide,
+and the PEP process is used solely to propose and review changes to the
+specifications, rather than serving as long term interface documentation in
+their own right.
+
+For an example of this approach, see :pep:`566`.
+
+This allows readability improvements that don't affect software interoperability
+to be implemented using the Python Packaging User Guide's standard pull request
+based workflow, in a process that more closely matches the relationship between
+the :ref:`Python language reference <https://docs.python.org/dev/reference/>`
+and the Python Enhancement Proposals that update it.
+
+If a change being considered this way has the potential to affect software
+interoperability, then it must be escalated to the distutils-sig mailing list
+for discussion, where it will be either approved as a text-only change, or
+else directed to the PEP process for specification updates.
+
+For older PEPs, where the PEP itself serves as the reference documentation,
+the equivalent amendment process is to submit an issue and/or pull
 request against the `official PEPs repo <https://github.com/python/peps>`_.
 
 All enhancements proposed this way *must* be discussed on distutils-sig prior
@@ -106,24 +125,6 @@ PyPA core reviewers that are also PEP editors are responsible for deciding which
 of these changes can just be accepted (e.g. fixing a typo), which need to be
 reviewed by the relevant responsible decision maker before being accepted, and
 which need to be escalated to the full Python Enhancement Proposal process.
-
-Current exceptions to this policy exist for:
-
-* the core metadata specification in PEP 345
-* the installed distributions metadata layout specification in PEP 376
-
-For historical reasons, these PEPs are currently maintained in a hybrid
-state where additional fields and the selective superceding of various
-sections is documented directly in the specification section of the Python
-Packaging User Guide rather than being incorporated into the original PEP.
-
-.. With the definition and adoption of metadata 2.0 deferred indefinitely,
-   the PyPUG changes to PEP 345 should probably be rolled into a metadata 1.3
-   informational PEP that follows the standard update policy described above
-
-   Similarly, a new PEP could describe the installation metadata as actually
-   emitted by pip, rather than as originally proposed in PEP 376, without
-   needing to add anything new to it
 
 
 Handling major updates
