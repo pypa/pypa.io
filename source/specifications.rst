@@ -82,8 +82,10 @@ potentially backwards incompatible amendments if real world experience
 indicates that there are critical problems in the interface design that make
 it hard to implement and/or use correctly.
 
-When a PEP has only been provisionally accepted, this will be noted in the
-text of the affected PEP.
+When a PEP has only been provisionally accepted, this will be noted using
+the Provisional status in the PEP header - it will then be marked as
+Final after successful rollout and initial adoption of the reference
+implementation.
 
 Handling fixes and other minor updates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
