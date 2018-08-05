@@ -38,7 +38,7 @@ Proposing new specifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Proposals for new interoperability specifications should be formulated and
-submitted as new Informational Python Enhancement Proposals in accordance
+submitted as new Standards Track Python Enhancement Proposals in accordance
 with :pep:`1`.
 
 Such proposals must be accompanied by a PR against the PyPA Specifications
@@ -65,10 +65,13 @@ Otherwise, the default BDFL-Delegate depends on the area the PEP affects.
 For Package Distribution Metadata, the default BDFL-Delegate was
 originally appointed directly by Guido van Rossum as Python's BDFL (hence the
 use of the term ``BDFL-Delegate``), but is now nominated by the previous
-default BDFL-Delegate (and the transfer of delegation approved by Guido).
+default BDFL-Delegate. (Even though Guido is no longer directly involved in the
+selection process, we continue to use the BDFL-Delegate title in order to
+avoid the inevitable bikeshed discussion around choosing a new term)
 
 For Package Index Interfaces, the default responsible decision maker is
 the lead maintainer for the `Python Package Index <https://pypi.org>`__.
+
 
 Provisional Acceptance
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -86,6 +89,7 @@ When a PEP has only been provisionally accepted, this will be noted using
 the Provisional status in the PEP header - it will then be marked as
 Final after successful rollout and initial adoption of the reference
 implementation.
+
 
 Handling fixes and other minor updates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
