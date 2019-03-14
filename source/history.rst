@@ -167,7 +167,7 @@ development of :ref:`distutils`.
 .. _peep: https://pypi.org/project/peep/
 .. _`Fastly CDN enabled`: https://mail.python.org/pipermail/distutils-sig/2013-May/020848.html
 .. _`Python Packaging User Guide`: https://python-packaging-user-guide.readthedocs.io/en/latest/
-.. _distribute: https://pypi.python.org/pypi/distribute
+.. _distribute: https://pypi.org/pypi/distribute
 .. _`MOSS grant for PyPI`: https://pyfound.blogspot.com/2017/11/the-psf-awarded-moss-grant-pypi.html
 .. _`pip release notes`: https://pip.pypa.io/en/stable/news/
 
