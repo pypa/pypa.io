@@ -42,7 +42,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'PyPA'
-copyright = u'2014, PyPA'
+copyright = u'2019, PyPA'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
