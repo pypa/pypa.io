@@ -30,8 +30,8 @@ Metadata 2.0
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP426
                  <https://github.com/pypa/interoperability-peps/labels/PEP426>`_
 
-:Status: `PEP426`_ is `in Deferred status
-         <https://www.python.org/dev/peps/pep-0426/#note-on-pep-deferral>`_,
+:Status: `PEP426`_ is `in Withdrawn status
+         <https://www.python.org/dev/peps/pep-0426/#note-on-pep-history>`_,
          and `PEP 566 (Metadata 1.3)
          <https://www.python.org/dev/peps/pep-0566/>`_ is a Draft
          introduced in December 2017.

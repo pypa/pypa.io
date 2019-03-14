@@ -4,6 +4,12 @@
 Packaging History
 =================
 
+2019
+----
+
+* `OTF grant for PyPI awarded to PSF`_, team began in March to focus
+  on security and accessibility improvements to Warehouse.
+
 2018
 ----
 
@@ -169,6 +175,7 @@ development of :ref:`distutils`.
 .. _`Python Packaging User Guide`: https://python-packaging-user-guide.readthedocs.io/en/latest/
 .. _distribute: https://pypi.org/pypi/distribute
 .. _`MOSS grant for PyPI`: https://pyfound.blogspot.com/2017/11/the-psf-awarded-moss-grant-pypi.html
+.. _`OTF grant for PyPI awarded to PSF`: https://pyfound.blogspot.com/2019/03/commencing-security-accessibility-and.html
 .. _`pip release notes`: https://pip.pypa.io/en/stable/news/
 
 ----
