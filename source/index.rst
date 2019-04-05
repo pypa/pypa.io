@@ -11,6 +11,7 @@ Python software and to interact with indexes of downloadable Python software
 such as `PyPI <https://pypi.org>`_, the Python Package Index.
 
 .. image:: https://pypi.org/static/images/logo-large.svg
+   :target: https://github.com/pypa/warehouse
 
 They host projects on `GitHub <https://github.com/pypa>`_ and
 `Bitbucket <https://bitbucket.org/pypa>`_, and discuss issues in `the
