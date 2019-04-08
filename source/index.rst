@@ -8,7 +8,7 @@ the relevant projects in Python packaging.
 
 The software developed through the PyPA is used to package, share, and install
 Python software and to interact with indexes of downloadable Python software
-such as `PyPI <https://pypi.org>`_, the Python Package Index.
+such as `PyPI <https://pypi.org>`_, the Python Package Index. Click the logo below to download pip, the most prominent software used to interact with PyPI.
 
 .. image:: https://pypi.org/static/images/logo-large.svg
    :target: https://pypi.org/project/pip/#files
