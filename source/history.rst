@@ -148,6 +148,10 @@ Python.
 **2006**: :ref:`buildout` was introduced by Jim Fulton, with the goal to create
 a system for repeatable installations of potentially complex projects.
 
+**2005**: Package files could be hosted on PyPI for the first time,
+`following the sprints at PyCon US 2005
+<https://mail.python.org/pipermail/catalog-sig/2005-March/000518.html>`_.
+
 **2004**: :ref:`setuptools` was introduced by Phillip Eby, which included the
 :term:`Egg` format, and the ability to declare and automatically install
 dependencies.
