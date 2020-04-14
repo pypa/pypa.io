@@ -4,45 +4,99 @@
 Packaging History
 =================
 
+2019
+----
+
+* `OTF grant for PyPI awarded to PSF`_, team began in March to focus
+  on security and accessibility improvements to Warehouse.
+
+2018
+----
+
+* Warehouse `superseded and replaced legacy PyPI
+  <https://mail.python.org/mm3/archives/list/distutils-sig@python.org/thread/YREMU56QKRMTTFBFVFJ2B4EHOEKOJZFJ/>`_.
+* Warehouse installation at pypi.org `entered beta phase
+  <https://mail.python.org/pipermail/python-announce-list/2018-March/011883.html>`_.
+* :pep:`566` accepted, adding better package metadata.
+
+2017
+----
+
+* ``pipenv``-based application dependency management tutorial `added
+  to PyPUG
+  <https://github.com/pypa/python-packaging-user-guide/pull/369>`_.
+* `MOSS grant for PyPI`_ awarded to PSF, team began in December to
+  focus on replacing legacy PyPI.
+* :pep:`517` accepted (``setup.py``-independent build system backends).
+* Legacy pypi.python.org upload API `switched off
+  <https://mail.python.org/pipermail/distutils-sig/2017-July/030849.html>`_.
+
+2016
+----
+
+* :ref:`pip` version 9 (`pip release notes`_) started respecting the
+  ``Requires-Python metadata`` field.
+* Package uploads `started defaulting to pypi.org
+  <https://mail.python.org/pipermail/distutils-sig/2017-June/030766.html>`_.
+* pypi.org `deployed
+  <https://mail.python.org/pipermail/distutils-sig/2016-August/029355.html>`_
+  as a soft-launch with core functionality.
+* :pep:`518` accepted (defining the ``pyproject.toml`` format for static
+  build dependency declarations)
+* PSF `hired an infrastructure manager
+  <https://pyfound.blogspot.com.au/2016/04/the-psf-has-hired-it-manager.html>`_.
+* :ref:`pip` v8.1 added ``manylinux1`` support (:pep:`513`, `pip
+  release notes`_), PyPI starts allowing Linux wheel files
+* :pep:`513` accepted (defining the ``manylinux1`` platform ABI).
+* Version 8 of :ref:`pip` (`pip release notes`_) integrated artifact hash checking
+  (previously dependent on the third-party project `peep`_).
+
 2015
 ----
 
 * :ref:`pip` (v7) started caching built :term:`wheels <pypug:Wheel>`, and
   installing from them, instead of installing directly from :term:`sdists
-  <pypug:Source Distribution (or "sdist")>`.
+  <pypug:Source Distribution (or "sdist")>` (`pip release notes`_).
 * :ref:`pip` (v7) started supporting ``--install-option`` and
-  ``--global-option`` per requirement in requirement files.
+  ``--global-option`` per requirement in requirement files (`pip release notes`_).
 * :ref:`setuptools` (v18.3) now allows disabling of the manipulation of the
   sys.path during the processing of the easy-install.pth file.
-* `PEP470`_, which deprecated external, non-PyPI hosting, was
+* :pep:`470`, which deprecated external, non-PyPI hosting, was
   accepted.
+* :pep:`503` published to standardise the PyPI simple repository API.
+* :pep:`508` published to standardise the specification format for individual dependencies.
 
 2014
 ----
 
-* :ref:`pypug:setuptools` v8.0 and :ref:`pypug:pip` v6.0 implemented `PEP440`_
-  (Python's new versioning scheme).  Both projects now depend on the project
-  :ref:`pypug:packaging` for this support.
-* `PEP477`_ backported `PEP453`_ into Python 2.7.9.
-* `PEP453`_: Being able to bootstrap ``pip`` into Python
-  3.4.
+
+* :ref:`pypug:setuptools` v8.0 and :ref:`pypug:pip` v6.0 (`pip release
+  notes`_) implemented :pep:`440` (Python's new versioning scheme).
+  Both projects now depend on the project :ref:`pypug:packaging` for
+  this support.
+* :pep:`477` backported :pep:`453` into Python 2.7.9.
+* :pep:`453`: Being able to bootstrap ``pip`` into Python 3.4.
 * https://bugs.python.org/issue19407: Modern Installation and Packaging guides on
   python.org.
 * :ref:`virtualenv` (v1.11) started installing pip & setuptools using wheels.
-* :ref:`pip` (v1.5.1) became available as a cross platform wheel on PyPI.
-* :ref:`pip` (v1.5.1) stop requiring :ref:`setuptools` to install wheels.
+* :ref:`pip` (v1.5.1) became available as a cross platform wheel on
+  PyPI (`pip release notes`_).
+* :ref:`pip` (v1.5.1) stop requiring :ref:`setuptools` to install
+  wheels (`pip release notes`_).
 * ``get-pip.py`` doesn't require setuptools to be installed first
 * ``get-pip.py`` installs setuptools for you, if you don't already have it
-* `PEP449 <https://www.python.org/dev/peps/pep-0449/>`_: Removal of the DNS based
-  mirror autodiscovery
+* :pep:`449`: Removal of the DNS-based mirror autodiscovery
 * `Refactored the pip docs <https://github.com/pypa/pip/pull/1556>`_ to be
   consistent with the `"PyPA Standard Docs Template"
   <https://gist.github.com/qwcode/8431828>`_
+* PyPUG moved to the packaging.python.org subdomain.
+* :pep:`440` published to standardise version descriptions and filtering.
 
 2013
 ----
 
-* :ref:`distlib` started releasing to PyPI, and :ref:`pip` began depending on it
+* :ref:`distlib` started releasing to PyPI, and :ref:`pip` began
+  depending on it (`pip release notes`_).
 * Core PyPI infrastructure relocated to OSU/OSL (with significantly
   increased resources)
 * The core packaging projects were collected under the :term:`Python Packaging Authority
@@ -50,26 +104,26 @@ Packaging History
   <https://bitbucket.org/pypa/>`_ [2]_
 * Distribute merged back into :ref:`setuptools`, and :ref:`setuptools` development
   migrated to the PyPA BitBucket account. [1]_ [5]_
-* PyPI supports clients using verified SSL with standard cert bundles
-* PyPI forces web users over to SSL
-* :ref:`pip` (v1.3) and :ref:`easy_install <setuptools>` (v0.7) use verified SSL by default
+* PyPI started supporting clients using verified SSL with standard cert bundles.
+* PyPI forced web users over to SSL.
+* :ref:`pip` (v1.3) and :ref:`easy_install <setuptools>` (v0.7) use
+  verified SSL by default (`pip release notes`_)
 * easy_install supports additional hashes beyond md5 (pip already did)
-* Fastly CDN enabled for PyPI (donated)
+* `Fastly CDN enabled`_ for PyPI (donated)
 * Restructured the `pip install docs
   <https://pip.pypa.io/en/latest/installing/>`_ to clarify that
   setuptools and pip are the "base" of the bootstrapping hierarchy
 * setuptools available as a cross platform wheel on PyPI
-* `PEP438`_ and the associated pip changes.
+* :pep:`438` and the associated pip changes.
 * :ref:`pip` (v1.4) added support for building and installing :term:`wheels
-  <Wheel>`
+  <Wheel>` (`pip release notes`_)
 * :term:`PyPA <Python Packaging Authority (PyPA)>` became the maintainer for the
   `Python Packaging User Guide`_, which was forked from the "Hitchhiker's Guide
   to Packaging".
 * Packaging Dev and User Summits were held at Pycon 2013 to share ideas on the
   future of packaging. [3]_ [4]_
-* `PEP425`_ and `PEP427`_ were accepted.  Together,
+* :pep:`425` and :pep:`427` were accepted.  Together,
   they specify a built-package format for Python called :term:`Wheel`.
-
 
 Before 2013
 -----------
@@ -95,6 +149,10 @@ Python.
 **2006**: :ref:`buildout` was introduced by Jim Fulton, with the goal to create
 a system for repeatable installations of potentially complex projects.
 
+**2005**: Package files could be hosted on PyPI for the first time,
+`following the sprints at PyCon US 2005
+<https://mail.python.org/pipermail/catalog-sig/2005-March/000518.html>`_.
+
 **2004**: :ref:`setuptools` was introduced by Phillip Eby, which included the
 :term:`Egg` format, and the ability to declare and automatically install
 dependencies.
@@ -102,9 +160,9 @@ dependencies.
 **2003**: :term:`PyPI <Python Package Index (PyPI)>` was up and running.
 
 **2002**: Richard Jones started work on :term:`PyPI <Python Package Index
-(PyPI)>`, and created `PEP301`_ to describe it.
+(PyPI)>`, and created :pep:`301` to describe it.
 
-**2001**: `PEP241`_ was written to standardize the metadata for distributions.
+**2001**: :pep:`241` was written to standardize the metadata for distributions.
 
 **2000**: `catalog-sig`_ was created to discuss creating a centralized index of
 distributions.
@@ -118,22 +176,12 @@ development of :ref:`distutils`.
 .. _distutils-sig: https://www.python.org/community/sigs/current/distutils-sig/
 .. _catalog-sig: https://www.python.org/community/sigs/retired/catalog-sig/
 .. _`Python Packaging User Guide`: https://packaging.python.org
-.. _PEP241: https://www.python.org/dev/peps/pep-0241/
-.. _PEP314: https://www.python.org/dev/peps/pep-0314/
-.. _PEP301: https://www.python.org/dev/peps/pep-0301/
-.. _PEP477: https://www.python.org/dev/peps/pep-0477/
-.. _distribute: https://pypi.python.org/pypi/distribute
-.. _PEP345: https://www.python.org/dev/peps/pep-0345/
-.. _PEP376: https://www.python.org/dev/peps/pep-0376/
-.. _PEP425: https://www.python.org/dev/peps/pep-0425/
-.. _PEP427: https://www.python.org/dev/peps/pep-0427/
-.. _PEP438: https://www.python.org/dev/peps/pep-0438/
-.. _PEP453: https://www.python.org/dev/peps/pep-0453/
-.. _PEP426: https://www.python.org/dev/peps/pep-0426/
-.. _PEP386: https://www.python.org/dev/peps/pep-0386/
-.. _PEP440: https://www.python.org/dev/peps/pep-0440/
-.. _PEP458: https://www.python.org/dev/peps/pep-0458/
-.. _PEP470: https://www.python.org/dev/peps/pep-0470/
+.. _peep: https://pypi.org/project/peep/
+.. _`Fastly CDN enabled`: https://mail.python.org/pipermail/distutils-sig/2013-May/020848.html
+.. _distribute: https://pypi.org/pypi/distribute
+.. _`MOSS grant for PyPI`: https://pyfound.blogspot.com/2017/11/the-psf-awarded-moss-grant-pypi.html
+.. _`OTF grant for PyPI awarded to PSF`: https://pyfound.blogspot.com/2019/03/commencing-security-accessibility-and.html
+.. _`pip release notes`: https://pip.pypa.io/en/stable/news/
 
 ----
 
