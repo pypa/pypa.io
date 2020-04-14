@@ -4,7 +4,7 @@
 PyPA Roadmap
 ============
 
-:Last Reviewed: 2017-12-10
+:Last Reviewed: 2020-04-13
 
 A status page for the  major PyPA Todo items that will determine the course of Python Packaging.
 
@@ -16,6 +16,8 @@ Core Standards
 
 Metadata 2.0
 ~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: The next major upgrade of the metadata format, currently specified in
           `PEP426`_. The current version, 1.2, is specified in `PEP345`_.
@@ -42,6 +44,8 @@ Metadata 2.0
 Environment Markers Update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:Last Reviewed: 2017-12-10
+
 :Summary: An update to the notion of "Environment Markers" introduced in
           `PEP345`_. `PEP426`_ was originally scoped to include this update, but
           it was moved out to `PEP496`_.
@@ -62,6 +66,8 @@ Environment Markers Update
 Optional Dependencies ("Extras")
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:Last Reviewed: 2017-12-10
+
 :Summary: An attempt to formalize the notion of "Extras" introduced by
           setuptools. `PEP426`_ was originally scoped to include this, but it
           will likely be broken out.
@@ -78,6 +84,8 @@ Optional Dependencies ("Extras")
 Metadata Extensions
 ~~~~~~~~~~~~~~~~~~~
 
+:Last Reviewed: 2017-12-10
+
 :Summary: A system that supports extending metadata with custom
           metadata. `PEP426`_ was originally scoped to include this.  It's
           unclear, if it will remain, or be broken out.
@@ -93,6 +101,8 @@ Metadata Extensions
 
 Standard Python Extensions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: Assuming we support an extensions system, then this describes a set of
           standard extensions for Python packages.  This is currently specified
@@ -113,6 +123,8 @@ Standard Python Extensions
 Build Neutrality
 ~~~~~~~~~~~~~~~~
 
+:Last Reviewed: 2017-12-10
+
 :Summary: An attempt to specify a tool-neutral Build API, that pip will adopt,
           with the goal being to easily support other build systems besides
           setuptools/distutils.
@@ -130,6 +142,8 @@ Build Neutrality
 
 Source Distribution 2.0
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: A specification for a new sdist format.  The current setuptools sdist
           format has no formal specification.  It's up for debate whether this
@@ -150,6 +164,8 @@ Source Distribution 2.0
 Installation Database Updates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:Last Reviewed: 2017-12-10
+
 :Summary: An update to the "dist-info" installation database format introduced
           in `PEP376`_.
 
@@ -163,6 +179,8 @@ Installation Database Updates
 
 Wheel Updates
 ~~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: An update to the wheel spec (`PEP427`_) largely to handle a tagging
           scheme for linux binary wheels, although there are various other
@@ -178,6 +196,8 @@ Wheel Updates
 
 Common Filename Scheme
 ~~~~~~~~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: This would be a replacement for `PEP425`_ that increases scope to also
           cover the naming scheme used for dist-info directories, installation
@@ -197,19 +217,26 @@ Tools & Systems
 pip Dependency Resolution
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:Last Reviewed: 2020-04-13
+
 :Summary: pip currently has an overly-simplistic "first found, wins" resolver
           that ignores constraints already present in the environment.
 
 :Issues/PRs: `pip/issues/988 <https://github.com/pypa/pip/issues/988>`_
 
-:Status: Robert Collins was working on a new resolver in
-         `pip/pull/2716 <https://github.com/pypa/pip/pull/2716>`_;
-         Pradyun Gedam may restart that work.
+:Status: The Packaging Working Group of the Python Software Foundation
+	 `successfully applied for funding
+	 <https://wiki.python.org/psf/PackagingWG#Dependency_resolver_and_user_experience_improvements_for_pip>`_
+	 to finish the overhaul of the resolver, and a team is working
+	 on the project. A pip release including the new resolver is
+	 expected in 2020.
 
 .. _`pip upgrade`:
 
 pip upgrade [--all]
 ~~~~~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: Many pip users want a non-recursive upgrade (``pip upgrade -U`` is
           currently recursive), and many users also want some sort of ``pip
@@ -228,6 +255,8 @@ pip upgrade [--all]
 Vendor distutils into setuptools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:Last Reviewed: 2017-12-10
+
 :Summary: Possibly "vendor" a copy of distutils into setuptools, so that
           setuptools is free to evolve independent of the Standard Library copy
           of distutils.
@@ -238,29 +267,12 @@ Vendor distutils into setuptools
 :Status: Under consideration.
 
 
-.. _`Warehouse`:
-
-The New & Improved PyPI
-~~~~~~~~~~~~~~~~~~~~~~~
-
-:Summary: A rehaul of PyPI built on `Warehouse <https://github.com/pypa/warehouse>`_
-
-:Issues: `pypa/warehouse/issues <https://github.com/pypa/warehouse/issues>`_
-
-:Status: Under development. A beta version is `up and running
-          <http://pypi.org/>`_ and a team is working on getting it to
-          production status so it can replace legacy PyPI (as
-          announced `on pypa-dev
-          <https://groups.google.com/forum/#!topic/pypa-dev/MxmubyZwnSM>`_). See
-          `its development roadmap
-          <https://wiki.python.org/psf/WarehouseRoadmap>`_. Legacy
-          PyPI shutdown planned for late April 2018.
-
-
 .. _`TUF`:
 
 PyPI Integrate TUF
 ~~~~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2020-04-13
 
 :Summary: An effort to integrate PyPI with the `"The Update Framework" (TUF)
           <https://theupdateframework.github.io>`_.  This is specified in `PEP458`_
@@ -271,7 +283,10 @@ PyPI Integrate TUF
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP458
                  <https://github.com/pypa/interoperability-peps/labels/PEP458>`_
 
-:Status:  `PEP458`_ is in Draft status.
+:Status: `PEP458`_ is in Accepted status. The PSF's Packaging Working
+         Group received funding from Facebook and `a team is currently
+         working on implementing TUF on PyPI
+         <https://wiki.python.org/psf/PackagingWG#Warehouse:_Facebook_gift>`_.
 
 
 Documentation
@@ -281,6 +296,8 @@ Documentation
 
 New PyPUG Tutorials
 ~~~~~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: An attempt to improve the 2 primary PyPUG tutorials for readability
           and style, to coincide with the launch of the new Warehouse-backed
@@ -298,6 +315,8 @@ New PyPUG Tutorials
 Specs vs PEPs
 ~~~~~~~~~~~~~
 
+:Last Reviewed: 2017-12-10
+
 :Summary: An attempt to present finalized PEPs as non-numbered "Specifications"
           that are organized together in the PyPUG.  As it is, it's too hard to
           know what really represents the finalized set of PyPA PEPs.
@@ -312,6 +331,8 @@ Specs vs PEPs
 
 PyPA PEP Process
 ~~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2017-12-10
 
 :Summary: At its core, PyPA is consistent with the Python PEP process, but
           around the edges, it has a unique workflow that should be documented,
