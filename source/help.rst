@@ -5,7 +5,7 @@ How to Help
 * Get involved with one of the mainstream :ref:`packaging projects
   <pypug:projects>`.
 * Help us catalog and discuss the current problems in packaging and
-  installation.  See the `The issue tracker for the problems in packaging
+  installation.  See the `issue tracker for the problems in packaging
   <https://github.com/pypa/packaging-problems/issues>`_ maintained by
   :term:`PyPA <Python Packaging Authority (PyPA)>`.
 * Submit issues and pull requests to the `PyPA PEP development repository
