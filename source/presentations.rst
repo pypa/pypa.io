@@ -13,6 +13,10 @@ Presentations & Articles
 
 * PyGotham, October 2017
 
+  * Python Packaging 2.0: Playing Well With Others (`video
+    <https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article
+    <https://lwn.net/Articles/580399/>`_)
+
   * `Running Vintage Software: PyPI's Aging Codebase
     <http://pyvideo.org/pygotham-2017/running-vintage-software-pypis-aging-codebase.html>`_
 

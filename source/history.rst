@@ -69,13 +69,14 @@ Packaging History
 2014
 ----
 
+
 * :ref:`pypug:setuptools` v8.0 and :ref:`pypug:pip` v6.0 (`pip release
   notes`_) implemented :pep:`440` (Python's new versioning scheme).
   Both projects now depend on the project :ref:`pypug:packaging` for
   this support.
 * :pep:`477` backported :pep:`453` into Python 2.7.9.
 * :pep:`453`: Being able to bootstrap ``pip`` into Python 3.4.
-* http://bugs.python.org/issue19407: Modern Installation and Packaging guides on
+* https://bugs.python.org/issue19407: Modern Installation and Packaging guides on
   python.org.
 * :ref:`virtualenv` (v1.11) started installing pip & setuptools using wheels.
 * :ref:`pip` (v1.5.1) became available as a cross platform wheel on
@@ -84,7 +85,7 @@ Packaging History
   wheels (`pip release notes`_).
 * ``get-pip.py`` doesn't require setuptools to be installed first
 * ``get-pip.py`` installs setuptools for you, if you don't already have it
-* :pep:`449`: Removal of the DNS based mirror autodiscovery
+* :pep:`449`: Removal of the DNS-based mirror autodiscovery
 * `Refactored the pip docs <https://github.com/pypa/pip/pull/1556>`_ to be
   consistent with the `"PyPA Standard Docs Template"
   <https://gist.github.com/qwcode/8431828>`_
@@ -110,7 +111,7 @@ Packaging History
 * easy_install supports additional hashes beyond md5 (pip already did)
 * `Fastly CDN enabled`_ for PyPI (donated)
 * Restructured the `pip install docs
-  <http://pip.pypa.io/en/latest/installing.html>`_ to clarify that
+  <https://pip.pypa.io/en/latest/installing/>`_ to clarify that
   setuptools and pip are the "base" of the bootstrapping hierarchy
 * setuptools available as a cross platform wheel on PyPI
 * :pep:`438` and the associated pip changes.
@@ -172,11 +173,11 @@ distributions.
 development of :ref:`distutils`.
 
 
-.. _distutils-sig: http://www.python.org/community/sigs/current/distutils-sig/
-.. _catalog-sig: https://mail.python.org/mailman/listinfo/catalog-sig
+.. _distutils-sig: https://www.python.org/community/sigs/current/distutils-sig/
+.. _catalog-sig: https://www.python.org/community/sigs/retired/catalog-sig/
+.. _`Python Packaging User Guide`: https://packaging.python.org
 .. _peep: https://pypi.org/project/peep/
 .. _`Fastly CDN enabled`: https://mail.python.org/pipermail/distutils-sig/2013-May/020848.html
-.. _`Python Packaging User Guide`: https://python-packaging-user-guide.readthedocs.io/en/latest/
 .. _distribute: https://pypi.org/pypi/distribute
 .. _`MOSS grant for PyPI`: https://pyfound.blogspot.com/2017/11/the-psf-awarded-moss-grant-pypi.html
 .. _`OTF grant for PyPI awarded to PSF`: https://pyfound.blogspot.com/2019/03/commencing-security-accessibility-and.html
@@ -184,9 +185,9 @@ development of :ref:`distutils`.
 
 ----
 
-.. [1] http://mail.python.org/pipermail/distutils-sig/2013-June/021160.html
-.. [2] http://mail.python.org/pipermail/distutils-sig/2013-March/020224.html
+.. [1] https://mail.python.org/pipermail/distutils-sig/2013-June/021160.html
+.. [2] https://mail.python.org/pipermail/distutils-sig/2013-March/020224.html
 .. [3] https://us.pycon.org/2013/community/openspaces/packaginganddistributionminisummit/
-.. [4] http://www.pyvideo.org/video/1731/panel-directions-for-packaging
-.. [5] http://mail.python.org/pipermail/distutils-sig/2013-March/020127.html
-.. [6] http://mail.python.org/pipermail/python-dev/2012-June/120430.html
+.. [4] http://pyvideo.org/video/1731/panel-directions-for-packaging/
+.. [5] https://mail.python.org/pipermail/distutils-sig/2013-March/020127.html
+.. [6] https://mail.python.org/pipermail/python-dev/2012-June/120430.html

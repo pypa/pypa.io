@@ -263,8 +263,7 @@ PyPI Integrate TUF
 ~~~~~~~~~~~~~~~~~~
 
 :Summary: An effort to integrate PyPI with the `"The Update Framework" (TUF)
-          <http://www.updateframework.com/projects/project>`_.  This is
-          specified in `PEP458`_
+          <https://theupdateframework.github.io>`_.  This is specified in `PEP458`_
 
 :PEP Src: `pep-0458-tuf-online-keys.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0458-tuf-online-keys.rst>`_

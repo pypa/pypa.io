@@ -30,8 +30,8 @@ Specification Update Process
 
 PyPA interoperability specifications are separated into two categories:
 
-* `Package Distribution Metadata <https://packaging.python.org/specifications/#package-distribution-metadata>`_
-* `Package Index Interfaces <https://packaging.python.org/specifications/#package-index-interfaces>`_
+* `Package Distribution Metadata <https://packaging.python.org/specifications/>`_
+* `Package Index Interfaces <https://packaging.python.org/specifications/>`_
 
 
 Proposing new specifications
