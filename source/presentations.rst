@@ -2,6 +2,30 @@
 Presentations & Articles
 ========================
 
+
+* PyCon India, October 2019
+
+  * `Python Packaging - Where We Are and Where We're Headed <https://pyvideo.org/pycon-india-2019/python-packaging-where-we-are-and-where-were-headed-pradyun-gedam.html>`_
+
+* PyCon UK, September 2019
+
+  * `What does PEP 517 mean for packaging <https://pyvideo.org/pycon-uk-2019/what-does-pep-517-mean-for-packaging.html>`_
+
+* Kiwi PyCon, August 2019
+
+  * `The Packaging Lifecycle with Poetry <https://pyvideo.org/kiwi-pycon-2019/the-packaging-lifecycle-with-poetry.html>`_
+
+* North Bay Python, November 2018
+
+  * `Packaging Django Apps for Distribution on PyPI  <https://pyvideo.org/north-bay-python-2018/packaging-django-apps-for-distribution-on-pypi.html>`_
+
+* PyGotham, October 2018
+
+  * `Inside the Cheeseshop: How Python Packaging Works
+    <https://pyvideo.org/pygotham-2018/inside-the-cheeseshop-how-python-packaging-works.html>`_
+    (`slides and transcript
+    <https://dustingram.com/talks/2018/10/23/inside-the-cheeseshop/>`_)
+
 * Linux Weekly News, April 2018
 
   * `A new package index for Python <https://lwn.net/SubscriberLink/751458/81b2759e7025d6b9/>`_
