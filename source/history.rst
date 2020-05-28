@@ -4,11 +4,19 @@
 Packaging History
 =================
 
+2020
+----
+
+* `Old pypa-dev Google Group decommissioned`_ to focus conversation
+  in Discourse forum and distutils-sig list.
+* `Packaging Working Group used MOSS and CZI funding to improve pip
+  dependency resolver`_.
+
 2019
 ----
 
-* `OTF grant for PyPI awarded to PSF`_, team began in March to focus
-  on security and accessibility improvements to Warehouse.
+* `OTF grant for PyPI awarded to PSF`_, team worked on security,
+  localization, and accessibility improvements to Warehouse.
 
 2018
 ----
@@ -182,6 +190,9 @@ development of :ref:`distutils`.
 .. _`MOSS grant for PyPI`: https://pyfound.blogspot.com/2017/11/the-psf-awarded-moss-grant-pypi.html
 .. _`OTF grant for PyPI awarded to PSF`: https://pyfound.blogspot.com/2019/03/commencing-security-accessibility-and.html
 .. _`pip release notes`: https://pip.pypa.io/en/stable/news/
+.. _`Old pypa-dev Google Group decommissioned`: https://groups.google.com/d/msg/pypa-dev/twf9HCGfv3k/t2HJwzF-AgAJ
+.. _`Packaging Working Group used MOSS and CZI funding to improve pip dependency resolver`: https://pyfound.blogspot.com/2020/03/new-pip-resolver-to-roll-out-this-year.html
+
 
 ----
 
