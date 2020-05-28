@@ -33,11 +33,10 @@ offers basic information and links to available third party packaging options
 The PyPA hosts projects on `GitHub <https://github.com/pypa>`_ and
 `Bitbucket <https://bitbucket.org/pypa>`_, and discusses issues in `the
 Packaging category on discuss.python.org
-<https://discuss.python.org/c/packaging>`_ and on the `pypa-dev
-<https://groups.google.com/forum/#!forum/pypa-dev>`_ and
+<https://discuss.python.org/c/packaging>`_ and on the
 `distutils-sig
 <http://mail.python.org/mailman/listinfo/distutils-sig>`_ mailing
-lists.
+list.
 
 For a listing of PyPA's important projects, see :ref:`the key projects list
 <pypug:pypa_projects>`.
