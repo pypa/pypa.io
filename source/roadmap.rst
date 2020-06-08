@@ -4,7 +4,7 @@
 PyPA Roadmap
 ============
 
-:Last Reviewed: 2020-04-13
+:Last Reviewed: 2020-06-08
 
 A status page for the  major PyPA Todo items that will determine the course of Python Packaging.
 
@@ -17,14 +17,13 @@ Core Standards
 Metadata 2.0
 ~~~~~~~~~~~~
 
-:Last Reviewed: 2017-12-10
+:Last Reviewed: 2020-06-08
 
-:Summary: The next major upgrade of the metadata format, currently specified in
-          `PEP426`_. The current version, 1.2, is specified in `PEP345`_.
-          `PEP426`_ currently has a very broad scope, and will likely be
-          trimmed, with the minimum scope being at least to include
-          "build_requires" and "test_requires", and possibly the extensions
-          system.
+:Summary: Major upgrades of the metadata format. Version 1.2 was specified in
+	  :pep:`345`. :pep:`426` is `in Withdrawn status
+          <https://www.python.org/dev/peps/pep-0426/#note-on-pep-history>`_; it
+          had a very broad scope, and included "build_requires" and
+	  "test_requires", and the extensions system.
 
 :PEP Src: `pep-0426-core-metadata.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0426-core-metadata.rst>`_
@@ -32,11 +31,10 @@ Metadata 2.0
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP426
                  <https://github.com/pypa/interoperability-peps/labels/PEP426>`_
 
-:Status: `PEP426`_ is `in Withdrawn status
-         <https://www.python.org/dev/peps/pep-0426/#note-on-pep-history>`_,
-         and `PEP 566 (Metadata 1.3)
-         <https://www.python.org/dev/peps/pep-0566/>`_ is a Draft
-         introduced in December 2017.
+:Status:
+         :pep:`566` (Metadata 1.3) was accepted in February 2018. :pep:`566`
+	 (Metadata 2.1) was accepted in February 2018. Several features of
+	 Metadata 2.0 are specified but not yet accepted or implemented.
 
 
 .. _`Environment Markers Update`:
@@ -47,8 +45,8 @@ Environment Markers Update
 :Last Reviewed: 2017-12-10
 
 :Summary: An update to the notion of "Environment Markers" introduced in
-          `PEP345`_. `PEP426`_ was originally scoped to include this update, but
-          it was moved out to `PEP496`_.
+          :pep:`345`. :pep:`426` was originally scoped to include this update, but
+          it was moved out to :pep:`496`.
 
 :PEP Src: `pep-0496-environment-markers.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0496-environment-markers.rst>`_
@@ -56,9 +54,8 @@ Environment Markers Update
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP496
                  <https://github.com/pypa/interoperability-peps/labels/PEP496>`_
 
-:Status: `PEP496`_ has been rejected in favor of the more
-         comprehensive `PEP 508
-         <https://www.python.org/dev/peps/pep-0508>`_.
+:Status: :pep:`496` has been rejected in favor of the more
+         comprehensive :pep:`508`.
 
 
 .. _`Optional Dependencies ("Extras")`:
@@ -69,13 +66,13 @@ Optional Dependencies ("Extras")
 :Last Reviewed: 2017-12-10
 
 :Summary: An attempt to formalize the notion of "Extras" introduced by
-          setuptools. `PEP426`_ was originally scoped to include this, but it
+          setuptools. :pep:`426`was originally scoped to include this, but it
           will likely be broken out.
 
 :Issues/PRs: `pypa/interoperability-peps/labels/Extras
                  <https://github.com/pypa/interoperability-peps/labels/Extras>`_
 
-:Status: Currently covered in `PEP426`_ (which is in Deferred status), but will
+:Status: Currently covered in :pep:`426` (which is in Deferred status), but will
          likely be broken out.
 
 
@@ -87,13 +84,13 @@ Metadata Extensions
 :Last Reviewed: 2017-12-10
 
 :Summary: A system that supports extending metadata with custom
-          metadata. `PEP426`_ was originally scoped to include this.  It's
+          metadata. :pep:`426` was originally scoped to include this.  It's
           unclear, if it will remain, or be broken out.
 
 :Issues/PRs: `pypa/interoperability-peps/labels/Extensions
                  <https://github.com/pypa/interoperability-peps/labels/Extensions>`_
 
-:Status: Currently covered in `PEP426`_ (which is in Deferred status), but may be
+:Status: Currently covered in :pep:`426` (which is in Deferred status), but may be
          broken out.
 
 
@@ -106,7 +103,7 @@ Standard Python Extensions
 
 :Summary: Assuming we support an extensions system, then this describes a set of
           standard extensions for Python packages.  This is currently specified
-          in `PEP459`_ .
+          in :pep:`459`.
 
 :PEP Src: `pep-0459-standard-metadata-extensions.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0459-standard-metadata-extensions.rst>`_
@@ -114,7 +111,7 @@ Standard Python Extensions
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP459
                  <https://github.com/pypa/interoperability-peps/labels/PEP459>`_
 
-:Status: `PEP459`_ is `in Deferred
+:Status: :pep:`459` is `in Deferred
          status <https://www.python.org/dev/peps/pep-0459/#pep-deferral>`_.
 
 
@@ -167,7 +164,7 @@ Installation Database Updates
 :Last Reviewed: 2017-12-10
 
 :Summary: An update to the "dist-info" installation database format introduced
-          in `PEP376`_.
+          in :pep:`376`.
 
 :Issues/PRs: `pypa/interoperability-peps/labels/Installation-Database
                  <https://github.com/pypa/interoperability-peps/labels/Installation-Database>`_
@@ -182,7 +179,7 @@ Wheel Updates
 
 :Last Reviewed: 2017-12-10
 
-:Summary: An update to the wheel spec (`PEP427`_) largely to handle a tagging
+:Summary: An update to the wheel spec (:pep:`427`) largely to handle a tagging
           scheme for linux binary wheels, although there are various other
           issues that people have raised.
 
@@ -199,7 +196,7 @@ Common Filename Scheme
 
 :Last Reviewed: 2017-12-10
 
-:Summary: This would be a replacement for `PEP425`_ that increases scope to also
+:Summary: This would be a replacement for :pep:`425` that increases scope to also
           cover the naming scheme used for dist-info directories, installation
           DB metadata directories, sdist archives and wheel archives.
 
@@ -217,7 +214,7 @@ Tools & Systems
 pip Dependency Resolution
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Last Reviewed: 2020-04-13
+:Last Reviewed: 2020-06-08
 
 :Summary: pip currently has an overly-simplistic "first found, wins" resolver
           that ignores constraints already present in the environment.
@@ -272,10 +269,10 @@ Vendor distutils into setuptools
 PyPI Integrate TUF
 ~~~~~~~~~~~~~~~~~~
 
-:Last Reviewed: 2020-04-13
+:Last Reviewed: 2020-06-08
 
 :Summary: An effort to integrate PyPI with the `"The Update Framework" (TUF)
-          <https://theupdateframework.github.io>`_.  This is specified in `PEP458`_
+          <https://theupdateframework.github.io>`_.  This is specified in :pep:`458`
 
 :PEP Src: `pep-0458-tuf-online-keys.rst
           <https://github.com/pypa/interoperability-peps/blob/master/pep-0458-tuf-online-keys.rst>`_
@@ -283,14 +280,14 @@ PyPI Integrate TUF
 :Issues/PRs: `pypa/interoperability-peps/labels/PEP458
                  <https://github.com/pypa/interoperability-peps/labels/PEP458>`_
 
-:Status: `PEP458`_ is in Accepted status. The PSF's Packaging Working
+:Status: :pep:`458` is in Accepted status. The PSF's Packaging Working
          Group received funding from Facebook and `a team is currently
          working on implementing TUF on PyPI
          <https://wiki.python.org/psf/PackagingWG#Warehouse:_Facebook_gift>`_.
 
 
-Documentation
--------------
+Documentation and Governance
+----------------------------
 
 .. _`New PyPUG Tutorials`:
 
@@ -338,7 +335,7 @@ PyPA PEP Process
           around the edges, it has a unique workflow that should be documented,
           with the goal being to increase involvement.  This process may change
           if the Python PEP database migrates to using GitLab as specified in
-          `PEP507`_.
+          :pep:`507`.
 
 :Issues/PRs: `interoperability-peps/issues/53
         <https://github.com/pypa/interoperability-peps/issues/53>`_
@@ -348,13 +345,15 @@ PyPA PEP Process
           work.
 
 
+.. _`PyPA Governance`:
 
-.. _PEP345: https://www.python.org/dev/peps/pep-0345/
-.. _PEP425: https://www.python.org/dev/peps/pep-0425/
-.. _PEP426: https://www.python.org/dev/peps/pep-0426/
-.. _PEP427: https://www.python.org/dev/peps/pep-0427/
-.. _PEP376: https://www.python.org/dev/peps/pep-0376/
-.. _PEP458: https://www.python.org/dev/peps/pep-0458/
-.. _PEP459: https://www.python.org/dev/peps/pep-0459/
-.. _PEP496: https://www.python.org/dev/peps/pep-0496/
-.. _PEP507: https://www.python.org/dev/peps/pep-0507/
+PyPA Governance
+~~~~~~~~~~~~~~~
+
+:Last Reviewed: 2020-06-08
+
+:Summary: :pep:`609` suggests a governing model that aims to formalize
+	  existing practices.
+
+:Status:
+         Under discussion since November 2019.
