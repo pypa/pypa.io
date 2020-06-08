@@ -52,4 +52,5 @@ For a user introduction to packaging, see the `Python Packaging User Guide
    help
    presentations
    history
+   members
    code-of-conduct
