@@ -29,9 +29,8 @@ distutils-sig mailing list`_.
 Project membership
 ------------------
 
-The PyPA member projects are those listed within our `GitHub organization
-<https://github.com/pypa>`_ and `Bitbucket organization
-<https://bitbucket.org/pypa>`_.
+The PyPA member projects are those listed within our `GitHub organization`_
+and `Bitbucket organization`_.
 
 We currently do not have a codified process for inviting or accepting
 projects to be PyPA members. :pep:`609` is currently under discussion
@@ -55,9 +54,8 @@ Maintainership of a project that is under the PyPA organization
 automatically transfers individual membership in the PyPA. The PyPA
 individual members are those who have maintainer status (also known as
 committer status or write permissions) on any projects within the PyPA
-`GitHub organization <https://github.com/pypa>`_ or `Bitbucket
-organization <https://bitbucket.org/pypa>`_. Currently there is no
-public list of all PyPA individual members.
+`GitHub organization`_ or `Bitbucket organization`_. Currently there is
+no public list of all PyPA individual members.
 
 The PyPA currently does not have a codified process for inviting or
 accepting individuals to be PyPA members.
