@@ -51,23 +51,24 @@ The ``Discussions-To`` header in packaging related PEPs should be set to
 
 Whenever a new PEP is put forward on distutils-sig, any PyPA core
 reviewer that believes they are suitably experienced to make the final
-decision on that PEP may offer to serve as the BDFL's delegate (or
+decision on that PEP may offer to serve as the Steering Council's delegate (or
 "PEP czar") for that PEP. If their self-nomination is accepted by the
 other PyPA core reviewers, the lead PyPI maintainer and the default
-BDFL delegate for package distribution metadata PEPs, then they will have the
+PEP-Delegate for package distribution metadata PEPs, then they will have the
 authority to approve (or reject) that PEP.
 
-Otherwise, the default BDFL-Delegate depends on the area the PEP affects.
+Otherwise, the default ("standing") PEP-Delegate depends on the area
+the PEP affects. The `current standing delegations
+<https://github.com/python/steering-council/blob/master/process/standing-delegations.md#pypa-delegations>`__ are:
 
 * Package Distribution Metadata PEPs: Paul Moore
 * Package Index Interface PEPs: Donald Stufft
 
-For Package Distribution Metadata, the default BDFL-Delegate was
-originally appointed directly by Guido van Rossum as Python's BDFL (hence the
-use of the term ``BDFL-Delegate``), but is now nominated by the previous
-default BDFL-Delegate. (Even though Guido is no longer directly involved in the
-selection process, we continue to use the BDFL-Delegate title in order to
-avoid the inevitable bikeshed discussion around choosing a new term)
+For Package Distribution Metadata, the default PEP-Delegate was
+originally appointed directly by Guido van Rossum as Python's BDFL
+(hence the previous use of the term ``BDFL-Delegate``), but is now
+nominated by the previous default PEP-Delegate. Any of the standing
+delegates may also be a sponsor for any packaging-related PEP.
 
 For Package Index Interfaces, the default responsible decision maker is
 the lead maintainer for the `Python Package Index <https://pypi.org>`__.
