@@ -4,11 +4,12 @@
 PyPA Members, And How To Join
 =============================
 
-:Last Reviewed: 2020-06-08
+:Last Reviewed: 2020-07-20
 
-Historically, the PyPA has been a loose confederation of people
+Historically, the PyPA was a loose confederation of people
 and projects; the word "authority" in the name was meant to be
-a joke.
+a joke. :pep:`609` formalizes the PyPA somewhat and clarifies
+membership and governance rules.
 
 .. _`Does not require membership`:
 
@@ -17,7 +18,7 @@ Does not require membership
 
 Anyone is welcome to (while following licensing terms) use PyPA projects.
 
-Anyone is welcome to (while following the PyPA's :ref:`Code of Conduct`)
+Anyone is welcome to (while following the `PSF's Code of Conduct`_)
 contribute patches, bug reports, feature requests, ideas, questions,
 answers, and similar information in our `GitHub organization`_ and
 `Bitbucket organization`_ repositories, and discuss issues and plans
@@ -32,18 +33,16 @@ Project membership
 The PyPA member projects are those listed within our `GitHub organization`_
 and `Bitbucket organization`_.
 
-We currently do not have a codified process for inviting or accepting
-projects to be PyPA members. :pep:`609` is currently under discussion
-to formalize the process.
+Per :pep:`609`, any existing PyPA member can propose to accept a
+project into PyPA, and members vote to decide whether to accept that
+proposal. Criteria include the project adopting the PyPA's :ref:`Code
+of Conduct` and the project being relevant to Python packaging, as
+determined by existing members of PyPA.
 
-In the interim, to request PyPA project membership, start a thread on
+To request PyPA project membership, start a thread on
 `the Packaging category on discuss.python.org`_ or on `the
-distutils-sig mailing list`_ requesting PyPA project
-membership. Criteria include the project adopting the PyPA's
-:ref:`Code of Conduct` and the project being relevant to Python
-packaging, as determined by existing members of PyPA. The decision
-will rest with the PyPA organizational administrators on GitHub or
-Bitbucket.
+distutils-sig mailing list`_ requesting such a vote.
+
 
 .. _`Individual membership`:
 
@@ -53,22 +52,21 @@ Individual membership
 Maintainership of a project that is under the PyPA organization
 automatically transfers individual membership in the PyPA. The PyPA
 individual members are those who have maintainer status (also known as
-committer status or write permissions) on any projects within the PyPA
-`GitHub organization`_ or `Bitbucket organization`_. Currently there is
-no public list of all PyPA individual members.
+committer status or write permissions) or triage permissions on any
+projects within the PyPA `GitHub organization`_ or `Bitbucket
+organization`_. Currently there is no public list of all PyPA
+individual members.
 
-The PyPA currently does not have a codified process for inviting or
-accepting individuals to be PyPA members.
-
-To become an individual member of the PyPA, you can do either of the following:
+Per :pep:`609`, to become an individual member of the PyPA, you can do
+either of the following:
 
 1. attain PyPA project membership for your project (for which you are already a maintainer)
-2. attain maintainership in a project that is already a PyPA member project
+2. attain maintainership or triage permissions in a project that is already a PyPA member project
 
 PyPA member projects each make their own decisions regarding granting
-maintainer rights.  :pep:`609`, if accepted, would not alter this.
+maintainer and triager rights to individuals.
 
-
+.. _PSF's Code of Conduct: https://www.python.org/psf/conduct/
 .. _GitHub organization: https://github.com/pypa
 .. _Bitbucket organization: https://bitbucket.org/pypa
 .. _the Packaging category on discuss.python.org: https://discuss.python.org/c/packaging

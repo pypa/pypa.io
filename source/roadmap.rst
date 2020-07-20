@@ -4,7 +4,7 @@
 PyPA Roadmap
 ============
 
-:Last Reviewed: 2020-06-08
+:Last Reviewed: 2020-07-20
 
 A status page for the  major PyPA Todo items that will determine the course of Python Packaging.
 
@@ -350,10 +350,14 @@ PyPA PEP Process
 PyPA Governance
 ~~~~~~~~~~~~~~~
 
-:Last Reviewed: 2020-06-08
+:Last Reviewed: 2020-07-20
 
 :Summary: :pep:`609` suggests a governing model that aims to formalize
 	  existing practices.
 
 :Status:
-         Under discussion since November 2019.
+         :pep:`609` is approved. The PyPA and the Steering Council will
+         continue to discuss and refine the scope of the PEP process,
+         how and when it applies to packaging-specific standards and
+         architecture decisions, and how we all might adapt governance
+         processes further.
