@@ -41,13 +41,18 @@ Proposals for new interoperability specifications should be formulated and
 submitted as new Standards Track Python Enhancement Proposals in accordance
 with :pep:`1`.
 
-Such proposals must be accompanied by a PR against the PyPA Specifications
-section in the Python Packaging User Guide that adds a new subsection defining
-the purpose of the new specification and the role it plays in the wider Python
-packaging ecosystem.
+Such proposals must be accompanied by a pull request to the
+`Python Packaging User Guide repository`_, against the PyPA Specifications
+section, that adds a new subsection defining the purpose of the new
+specification and the role it plays in the wider Python packaging ecosystem.
+
+.. _`Python Packaging User Guide repository`: https://github.com/pypa/packaging.python.org
 
 The ``Discussions-To`` header in packaging related PEPs should be set to
-``distutils-sig@python.org``.
+a new topic dedicated to the proposal on `Python.org Discourse`_ under the
+*packaging* category.
+
+.. _`Python.org Discourse`: https://discuss.python.org/
 
 Whenever a new PEP is put forward on distutils-sig, any PyPA core
 reviewer that believes they are suitably experienced to make the final
