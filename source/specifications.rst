@@ -17,7 +17,7 @@ are tracked as Informational Python Enhancement Proposals in accordance
 with :pep:`1`.
 
 The currently active specifications are recorded in the
-:ref:`PyPA Specifications <pypug:specifications>` section of the
+:doc:`PyPA Specifications <pypug:specifications/index>` section of the
 Python Packaging User Guide.
 
 This section may also include clarifications, amendments and additional
@@ -103,7 +103,7 @@ Handling fixes and other minor updates
 The preferred approach to handling corrections and clarifications for all
 recent interoperability specifications is to designate in the PEP that
 the actively maintained version of the specification is hosted in the
-:ref:`PyPA Specifications <pypug:specifications>` section of the user guide,
+:doc:`PyPA Specifications <pypug:specifications/index>` section of the user guide,
 and the PEP process is used solely to propose and review changes to the
 specifications, rather than serving as long term interface documentation in
 their own right.
@@ -113,7 +113,7 @@ For an example of this approach, see :pep:`566`.
 This allows readability improvements that don't affect software interoperability
 to be implemented using the Python Packaging User Guide's standard pull request
 based workflow, in a process that more closely matches the relationship between
-the :ref:`Python language reference <https://docs.python.org/dev/reference/>`
+the `Python language reference <https://docs.python.org/dev/reference/>`
 and the Python Enhancement Proposals that update it.
 
 If a change being considered this way has the potential to affect software

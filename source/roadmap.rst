@@ -65,9 +65,9 @@ Optional Dependencies ("Extras")
 
 :Last Reviewed: 2017-12-10
 
-:Summary: An attempt to formalize the notion of "Extras" introduced by
-          setuptools. :pep:`426`was originally scoped to include this, but it
-          will likely be broken out.
+:Summary: An attempt to formalize the notion of "Extras" introduced by 
+          setuptools. :pep:`426` was originally scoped to include this, 
+          but it will likely be broken out.
 
 :Issues/PRs: `pypa/interoperability-peps/labels/Extras
                  <https://github.com/pypa/interoperability-peps/labels/Extras>`_
