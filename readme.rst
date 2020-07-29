@@ -9,4 +9,4 @@ Source is written in reStructuredText and rendered using Sphinx and
 ``make html`` to test changes locally.
 
 Everyone interacting in this codebase, issue tracker, and related chat
-rooms and mailing lists is expected to follow `the PyPA Code of Conduct <https://www.pypa.io/en/latest/code-of-conduct/>`__.
+rooms and mailing lists is expected to follow `the PSF Code of Conduct <https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md>`__.
