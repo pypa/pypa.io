@@ -2,6 +2,9 @@
 Presentations & Articles
 ========================
 
+* RFCs we ❤️ at Recurse Center, August 2020
+
+  * `Some PEP talk, or: What is a pyproject.toml? <https://vinayak.io/2020/08/17/day-6-some-pep-talk/>`_
 
 * PyCon India, October 2019
 
