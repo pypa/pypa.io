@@ -113,7 +113,7 @@ For an example of this approach, see :pep:`566`.
 This allows readability improvements that don't affect software interoperability
 to be implemented using the Python Packaging User Guide's standard pull request
 based workflow, in a process that more closely matches the relationship between
-the `Python language reference <https://docs.python.org/dev/reference/>`
+the `Python language reference <https://docs.python.org/dev/reference/>`_
 and the Python Enhancement Proposals that update it.
 
 If a change being considered this way has the potential to affect software

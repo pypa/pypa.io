@@ -62,9 +62,9 @@ Packaging History
 2015
 ----
 
-* :ref:`pip` (v7) started caching built :term:`wheels <pypug:wheel>`, and
+* :ref:`pip` (v7) started caching built :term:`wheels <pypug:Wheel>`, and
   installing from them, instead of installing directly from :term:`sdists
-  <pypug:source distribution (or "sdist")>` (`pip release notes`_).
+  <pypug:Source Distribution (or "sdist")>` (`pip release notes`_).
 * :ref:`pip` (v7) started supporting ``--install-option`` and
   ``--global-option`` per requirement in requirement files (`pip release notes`_).
 * :ref:`setuptools` (v18.3) now allows disabling of the manipulation of the
@@ -107,9 +107,8 @@ Packaging History
   depending on it (`pip release notes`_).
 * Core PyPI infrastructure relocated to OSU/OSL (with significantly
   increased resources)
-* The core packaging projects were collected under the :term:`Python Packaging
-  Authority (PyPA) <pypug:python packaging authority (pypa)>` accounts on 
-  `GitHub <https://github.com/pypa>`_ and `Bitbucket
+* The core packaging projects were collected under the :term:`pypug:Python Packaging
+  Authority (PyPA)` accounts on `GitHub <https://github.com/pypa>`_ and `Bitbucket
   <https://bitbucket.org/pypa/>`_ [2]_
 * Distribute merged back into :ref:`setuptools`, and :ref:`setuptools` development
   migrated to the PyPA BitBucket account. [1]_ [5]_
@@ -124,16 +123,15 @@ Packaging History
   setuptools and pip are the "base" of the bootstrapping hierarchy
 * setuptools available as a cross platform wheel on PyPI
 * :pep:`438` and the associated pip changes.
-* :ref:`pip` (v1.4) added support for building and installing :term:`wheels <pypug:wheel>`
+* :ref:`pip` (v1.4) added support for building and installing :term:`wheels <pypug:Wheel>`
   (`pip release notes`_)
-* :term:`Python Packaging Authority (PyPA) <pypug:python packaging authority (pypa)>`
-  became the maintainer for the
+* :term:`pypug:Python Packaging Authority (PyPA)` became the maintainer for the
   `Python Packaging User Guide`_, which was forked from the "Hitchhiker's Guide
   to Packaging".
 * Packaging Dev and User Summits were held at Pycon 2013 to share ideas on the
   future of packaging. [3]_ [4]_
 * :pep:`425` and :pep:`427` were accepted.  Together,
-  they specify a built-package format for Python called :term:`wheels <pypug:wheel>`.
+  they specify a built-package format for Python called :term:`wheels <pypug:Wheel>`.
 
 Before 2013
 -----------
@@ -141,9 +139,8 @@ Before 2013
 **2012-06-19**: The effort to include "Distutils2/Packaging" in Python 3.3 was
 abandoned due lack of involvement. [6]_
 
-**2011-02-28**: The :term:`Python Packaging Authority (PyPA) 
-<pypug:python packaging authority (pypa)>` is created to take over the 
-maintenance of :ref:`pip` and :ref:`virtualenv` from Ian Bicking,
+**2011-02-28**: The :term:`pypug:Python Packaging Authority (PyPA)` is created
+to take over the maintenance of :ref:`pip` and :ref:`virtualenv` from Ian Bicking,
 led by Carl Meyer, Brian Rosner and Jannis Leidel. Other proposed names were
 "ianb-ng", "cabal", "pack" and "Ministry of Installation".
 
@@ -165,13 +162,13 @@ a system for repeatable installations of potentially complex projects.
 <https://mail.python.org/pipermail/catalog-sig/2005-March/000518.html>`_.
 
 **2004**: :ref:`setuptools` was introduced by Phillip Eby, which included the
-`Egg <pypug:egg>` format, and the ability to declare and automatically install
+`Egg <pypug:Egg>` format, and the ability to declare and automatically install
 dependencies.
 
-**2003**: :term:`PyPI <pypug:python package index (pypi)>` was up and running.
+**2003**: :term:`PyPI <pypug:Python Package Index (PyPI)>` was up and running.
 
 **2002**: Richard Jones started work on :term:`PyPI
-<pypug:python package index (pypi)>`, and created :pep:`301` to describe it.
+<pypug:Python Package Index (PyPI)>`, and created :pep:`301` to describe it.
 
 **2001**: :pep:`241` was written to standardize the metadata for distributions.
 

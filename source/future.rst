@@ -14,8 +14,7 @@ library (also known as ``distutils2``) `did not make it
 <https://mail.python.org/pipermail/python-dev/2012-June/120430.html>`_ into the
 standard library for Python 3.3.  That effort had spanned from 2009 to 2012.
 
-The current effort is managed by the :term:`Python Packaging Authority (PyPA)
-<pypug:python packaging authority (pypa)>`, in cooperation with members of the
+The current effort is managed by the :term:`pypug:Python Packaging Authority (PyPA)`, in cooperation with members of the
 Python core development team.
 
 PyPA's current goals are:
