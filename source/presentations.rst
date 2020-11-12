@@ -33,21 +33,21 @@ Presentations & Articles
 * North Bay Python, December 2017
 
   * `Running Vintage Software: PyPI's Aging Codebase
-    <https://2017.northbaypython.org/schedule/presentation/5/>`__
+    <https://2017.northbaypython.org/schedule/presentation/5/>`_
 
 * PyGotham, October 2017
 
   * Python Packaging 2.0: Playing Well With Others (`video
-    <https://www.youtube.com/watch?v=7An2GobbSWU>`__, `article
-    <https://lwn.net/Articles/580399/>`__)
+    <https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article
+    <https://lwn.net/Articles/580399/>`_)
 
   * `Running Vintage Software: PyPI's Aging Codebase
-    <http://pyvideo.org/pygotham-2017/running-vintage-software-pypis-aging-codebase.html>`__
+    <http://pyvideo.org/pygotham-2017/running-vintage-software-pypis-aging-codebase.html>`_
 
 * PyBay, August 2017
 
   * The Packaging Gradient (`video
-    <https://www.youtube.com/watch?v=iLVNWfPWAC8>`__,
+    <https://www.youtube.com/watch?v=iLVNWfPWAC8>`_,
     `essay <http://sedimental.org/the_packaging_gradient.html>`_)
 
 * PyCon US, May 2017
@@ -75,18 +75,18 @@ Presentations & Articles
 * linux.conf.au 2014
 
   * Python Packaging 2.0: Playing Well With Others (`video
-    <https://www.youtube.com/watch?v=7An2GobbSWU>`__, `article
+    <https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article
     <http://lwn.net/Articles/580399>`_)
 
 * PyCon AU, July 2013
 
   * `Nobody Expects the Python Packaging Authority
-    <http://pyvideo.org/video/2197/nobody-expects-the-python-packaging-authority>`__
+    <http://pyvideo.org/video/2197/nobody-expects-the-python-packaging-authority>`_
 
 * PyCon US, March 2013
 
   * `Directions in Packaging Q & A Panel (aka "./setup.py install must die")
-    <http://pyvideo.org/video/1731/panel-directions-for-packaging>`__
+    <http://pyvideo.org/video/1731/panel-directions-for-packaging>`_
 
 * Personal essays
 
@@ -97,5 +97,5 @@ Presentations & Articles
     <https://caremad.io/posts/2016/05/powering-pypi/>`_
 
   * `Nick Coghlan: Incremental Plans to Improve Python Packaging
-    <http://python-notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html>`__
+    <http://python-notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html>`_
 
