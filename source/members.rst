@@ -18,7 +18,7 @@ Does not require membership
 
 Anyone is welcome to (while following licensing terms) use PyPA projects.
 
-Anyone is welcome to (while following the :ref:`Code of Conduct`_)
+Anyone is welcome to (while following the :ref:`Code of Conduct`)
 contribute patches, bug reports, feature requests, ideas, questions,
 answers, and similar information in our `GitHub organization`_ and
 `Bitbucket organization`_ repositories, and discuss issues and plans
