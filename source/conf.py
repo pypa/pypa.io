@@ -24,7 +24,7 @@ extensions = ['sphinx.ext.intersphinx']
 
 intersphinx_cache_limit = 0
 intersphinx_mapping = {
-    'pypug': ('https://packaging.python.org/en/latest/', None)
+    'pypug': ('https://packaging.python.org/', None)
 }
 
 

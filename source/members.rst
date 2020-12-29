@@ -18,7 +18,7 @@ Does not require membership
 
 Anyone is welcome to (while following licensing terms) use PyPA projects.
 
-Anyone is welcome to (while following the :ref:`Code of Conduct`_)
+Anyone is welcome to (while following :ref:`Code of Conduct`)
 contribute patches, bug reports, feature requests, ideas, questions,
 answers, and similar information in our `GitHub organization`_ and
 `Bitbucket organization`_ repositories, and discuss issues and plans
@@ -66,7 +66,6 @@ either of the following:
 PyPA member projects each make their own decisions regarding granting
 maintainer and triager rights to individuals.
 
-.. _PSF's Code of Conduct: https://www.python.org/psf/conduct/
 .. _GitHub organization: https://github.com/pypa
 .. _Bitbucket organization: https://bitbucket.org/pypa
 .. _the Packaging category on discuss.python.org: https://discuss.python.org/c/packaging

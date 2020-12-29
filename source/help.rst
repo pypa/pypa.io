@@ -7,7 +7,7 @@ How to Help
 * Help us catalog and discuss the current problems in packaging and
   installation.  See the `issue tracker for the problems in packaging
   <https://github.com/pypa/packaging-problems/issues>`_ maintained by
-  :term:`PyPA <Python Packaging Authority (PyPA)>`.
+  :term:`pypug:Python Packaging Authority (PyPA)`.
 * Submit issues and pull requests to the `PyPA PEP development repository
   <https://github.com/pypa/interoperability-peps>`_
 * Discuss ideas related to packaging on `the distutils-sig mailing list

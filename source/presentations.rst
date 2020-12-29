@@ -84,12 +84,12 @@ Presentations & Articles
 * PyCon AU, July 2013
 
   * `Nobody Expects the Python Packaging Authority
-    <http://pyvideo.org/video/2197/nobody-expects-the-python-packaging-authority>`__
+    <http://pyvideo.org/video/2197/nobody-expects-the-python-packaging-authority>`_
 
 * PyCon US, March 2013
 
   * `Directions in Packaging Q & A Panel (aka "./setup.py install must die")
-    <http://pyvideo.org/video/1731/panel-directions-for-packaging>`__
+    <http://pyvideo.org/video/1731/panel-directions-for-packaging>`_
 
 * Personal essays
 
@@ -100,5 +100,5 @@ Presentations & Articles
     <https://caremad.io/posts/2016/05/powering-pypi/>`_
 
   * `Nick Coghlan: Incremental Plans to Improve Python Packaging
-    <http://python-notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html>`__
+    <http://python-notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html>`_
 
