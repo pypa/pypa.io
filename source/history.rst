@@ -7,7 +7,7 @@ Packaging History
 2021
 ----
 
-* The PyPA became a PSF Fiscal Sponsoree
+* `The PyPA became a PSF Fiscal Sponsoree`_
 
 
 2020
@@ -201,6 +201,7 @@ development of :ref:`distutils`.
 .. _`Old pypa-dev Google Group decommissioned`: https://groups.google.com/d/msg/pypa-dev/twf9HCGfv3k/t2HJwzF-AgAJ
 .. _`Packaging Working Group used MOSS and CZI funding to improve pip dependency resolver`: https://pyfound.blogspot.com/2020/03/new-pip-resolver-to-roll-out-this-year.html
 .. _`New pip dependency resolver released`: https://pyfound.blogspot.com/2020/11/pip-20-3-new-resolver.html
+.. _`The PyPA became a PSF Fiscal Sponsoree`: https://www.python.org/psf/records/board/minutes/2021-01-27/#new-business
 
 
 ----
