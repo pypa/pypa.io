@@ -17,7 +17,7 @@ Packaging History
   in Discourse forum and distutils-sig list.
 * `Packaging Working Group used MOSS and CZI funding to improve pip
   dependency resolver`_.
-* :pep:`509` created and accepted, creating PyPA governance model.
+* :pep:`609` created and accepted, creating PyPA governance model.
 * `New pip dependency resolver released`_.
 
 2019
