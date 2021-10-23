@@ -35,23 +35,27 @@ Presentations & Articles
 
 * North Bay Python, December 2017
 
-  * `Running Vintage Software: PyPI's Aging Codebase
-    <https://2017.northbaypython.org/schedule/presentation/5/>`_
+  * `Running Vintage Software: PyPI's Aging Codebase`__
+  
+  __ https://2017.northbaypython.org/schedule/presentation/5/
 
 * PyGotham, October 2017
 
-  * Python Packaging 2.0: Playing Well With Others (`video
-    <https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article
+  * Python Packaging 2.0: Playing Well With Others (`video`__, `article
     <https://lwn.net/Articles/580399/>`_)
 
-  * `Running Vintage Software: PyPI's Aging Codebase
-    <http://pyvideo.org/pygotham-2017/running-vintage-software-pypis-aging-codebase.html>`_
+    __ https://www.youtube.com/watch?v=7An2GobbSWU
+
+  * `Running Vintage Software: PyPI's Aging Codebase`__
+
+    __ http://pyvideo.org/pygotham-2017/running-vintage-software-pypis-aging-codebase.html
 
 * PyBay, August 2017
 
-  * The Packaging Gradient (`video
-    <https://www.youtube.com/watch?v=iLVNWfPWAC8>`_,
+  * The Packaging Gradient (`video`__,
     `essay <http://sedimental.org/the_packaging_gradient.html>`_)
+
+    __ https://www.youtube.com/watch?v=iLVNWfPWAC8
 
 * PyCon US, May 2017
 
@@ -78,8 +82,9 @@ Presentations & Articles
 * linux.conf.au 2014
 
   * Python Packaging 2.0: Playing Well With Others (`video
-    <https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article
-    <http://lwn.net/Articles/580399>`_)
+    <https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article`__)
+
+    __ http://lwn.net/Articles/580399
 
 * PyCon AU, July 2013
 
