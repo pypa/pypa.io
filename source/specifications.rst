@@ -49,12 +49,12 @@ specification and the role it plays in the wider Python packaging ecosystem.
 .. _`Python Packaging User Guide repository`: https://github.com/pypa/packaging.python.org
 
 The ``Discussions-To`` header in packaging related PEPs should be set to
-a new topic dedicated to the proposal on `Python.org Discourse`_ under the
-*packaging* category.
+a new topic dedicated to the proposal on the `Python.org Discourse`_ under the
+*Packaging* category.
 
-.. _`Python.org Discourse`: https://discuss.python.org/
+.. _`Python.org Discourse`: https://discuss.python.org/c/packaging
 
-Whenever a new PEP is put forward on distutils-sig, any PyPA core
+Whenever a new PEP is put forward on the `Python.org Discourse`_, any PyPA core
 reviewer that believes they are suitably experienced to make the final
 decision on that PEP may offer to serve as the Steering Council's delegate (or
 "PEP czar") for that PEP. If their self-nomination is accepted by the
@@ -117,18 +117,18 @@ the `Python language reference <https://docs.python.org/dev/reference/>`_
 and the Python Enhancement Proposals that update it.
 
 If a change being considered this way has the potential to affect software
-interoperability, then it must be escalated to the distutils-sig mailing list
-for discussion, where it will be either approved as a text-only change, or
-else directed to the PEP process for specification updates.
+interoperability, then it must be escalated to the Packaging category of the
+`Python.org Discourse`_ for discussion, where it will be either approved as a
+text-only change, or else directed to the PEP process for specification updates.
 
 For older PEPs, where the PEP itself serves as the reference documentation,
 the equivalent amendment process is to submit an issue and/or pull
 request against the `official PEPs repo <https://github.com/python/peps>`_.
 
-All enhancements proposed this way *must* be discussed on distutils-sig prior
-to amending the PEP, and any changes made after PEP acceptance must be
-explicitly documented in a "Changes" section in the PEP itself. For example,
-see:
+All enhancements proposed this way *must* be discussed on the Packaging
+category of the `Python.org Discourse`_ prior to amending the PEP, and any
+changes made after PEP acceptance must be explicitly documented in a "Changes"
+section in the PEP itself. For example, see:
 
 * `Changes in PEP 440 <https://www.python.org/dev/peps/pep-0440/#summary-of-changes-to-pep-440>`_
 * `Changes in PEP 503 <https://www.python.org/dev/peps/pep-0503/#changes>`_

@@ -22,8 +22,7 @@ Anyone is welcome to (while following :ref:`Code of Conduct`)
 contribute patches, bug reports, feature requests, ideas, questions,
 answers, and similar information in our `GitHub organization`_ and
 `Bitbucket organization`_ repositories, and discuss issues and plans
-with us in `the Packaging category on discuss.python.org`_ and on `the
-distutils-sig mailing list`_.
+with us in the `Packaging category on discuss.python.org`_.
 
 .. _`Project membership`:
 
@@ -39,9 +38,8 @@ proposal. Criteria include the project adopting the PyPA's :ref:`Code
 of Conduct` and the project being relevant to Python packaging, as
 determined by existing members of PyPA.
 
-To request PyPA project membership, start a thread on
-`the Packaging category on discuss.python.org`_ or on `the
-distutils-sig mailing list`_ requesting such a vote.
+To request PyPA project membership, start a thread in the
+`Packaging category on discuss.python.org`_.
 
 
 .. _`Individual membership`:
@@ -68,5 +66,4 @@ maintainer and triager rights to individuals.
 
 .. _GitHub organization: https://github.com/pypa
 .. _Bitbucket organization: https://bitbucket.org/pypa
-.. _the Packaging category on discuss.python.org: https://discuss.python.org/c/packaging
-.. _the distutils-sig mailing list: http://mail.python.org/mailman/listinfo/distutils-sig
+.. _Packaging category on discuss.python.org: https://discuss.python.org/c/packaging

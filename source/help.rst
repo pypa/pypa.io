@@ -10,6 +10,5 @@ How to Help
   :term:`pypug:Python Packaging Authority (PyPA)`.
 * Submit issues and pull requests to the `PyPA PEP development repository
   <https://github.com/pypa/interoperability-peps>`_
-* Discuss ideas related to packaging on `the distutils-sig mailing list
-  <https://mail.python.org/mailman3/lists/distutils-sig.python.org/>`_ and
-  `the Python Discourse forum <https://discuss.python.org/c/packaging>`_.
+* Discuss ideas related to packaging on the `Python Discourse forum
+  <https://discuss.python.org/c/packaging>`_.
