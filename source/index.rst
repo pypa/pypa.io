@@ -16,7 +16,7 @@ The software developed through the PyPA is used to package, share, and install
 Python software and to interact with indexes of downloadable Python software
 such as `PyPI <https://pypi.org>`_, the Python Package Index. Click the logo below to download pip, the most prominent software used to interact with PyPI.
 
-.. image:: https://pypi.org/static/images/logo-large.svg
+.. image:: images/PyPI_logo.svg
    :target: https://pypi.org/project/pip/#files
 
 .. **** END CAREFUL HERE ****
@@ -33,8 +33,7 @@ available third-party packaging options (for example, `conda-forge
 
 For a listing of PyPA's important projects, see :ref:`the key projects
 list <pypug:pypa_projects>`. The PyPA hosts projects on `GitHub
-<https://github.com/pypa>`_ and `Bitbucket
-<https://bitbucket.org/pypa>`_, and discusses issues on the `Packaging
+<https://github.com/pypa>`_ and discusses issues on the `Packaging
 category on discuss.python.org <https://discuss.python.org/c/packaging>`_.
 
 For a user introduction to packaging, see the `Python Packaging User Guide
