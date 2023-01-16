@@ -20,8 +20,8 @@ Anyone is welcome to (while following licensing terms) use PyPA projects.
 
 Anyone is welcome to (while following :ref:`Code of Conduct`)
 contribute patches, bug reports, feature requests, ideas, questions,
-answers, and similar information in our `GitHub organization`_ and
-`Bitbucket organization`_ repositories, and discuss issues and plans
+answers, and similar information in our `GitHub organization`_
+repositories, and discuss issues and plans
 with us in the `Packaging category on discuss.python.org`_.
 
 .. _`Project membership`:
@@ -29,8 +29,7 @@ with us in the `Packaging category on discuss.python.org`_.
 Project membership
 ------------------
 
-The PyPA member projects are those listed within our `GitHub organization`_
-and `Bitbucket organization`_.
+The PyPA member projects are those listed within our `GitHub organization`_.
 
 Per :pep:`609`, any existing PyPA member can propose to accept a
 project into PyPA, and members vote to decide whether to accept that
@@ -51,8 +50,8 @@ Maintainership of a project that is under the PyPA organization
 automatically transfers individual membership in the PyPA. The PyPA
 individual members are those who have maintainer status (also known as
 committer status or write permissions) or triage permissions on any
-projects within the PyPA `GitHub organization`_ or `Bitbucket
-organization`_. Currently there is no public list of all PyPA
+projects within the PyPA `GitHub organization`_.
+Currently there is no public list of all PyPA
 individual members.
 
 Per :pep:`609`, to become an individual member of the PyPA, you can do
@@ -65,5 +64,4 @@ PyPA member projects each make their own decisions regarding granting
 maintainer and triager rights to individuals.
 
 .. _GitHub organization: https://github.com/pypa
-.. _Bitbucket organization: https://bitbucket.org/pypa
 .. _Packaging category on discuss.python.org: https://discuss.python.org/c/packaging
