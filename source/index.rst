@@ -33,8 +33,8 @@ available third-party packaging options (for example, `conda-forge
 
 For a listing of PyPA's important projects, see :ref:`the key projects
 list <pypug:pypa_projects>`. The PyPA hosts projects on `GitHub
-<https://github.com/pypa>`_ and `Bitbucket
-<https://bitbucket.org/pypa>`_, and discusses issues on the `Packaging
+<https://github.com/pypa>`_,
+and discusses issues on the `Packaging
 category on discuss.python.org <https://discuss.python.org/c/packaging>`_.
 
 For a user introduction to packaging, see the `Python Packaging User Guide

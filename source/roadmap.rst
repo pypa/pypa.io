@@ -252,16 +252,16 @@ pip upgrade [--all]
 Vendor distutils into setuptools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:Last Reviewed: 2017-12-10
+:Last Reviewed: 2023-01-16
 
 :Summary: Possibly "vendor" a copy of distutils into setuptools, so that
           setuptools is free to evolve independent of the Standard Library copy
           of distutils.
 
-:Issues/PRs: `setuptools/issues/417/adopt-distutils
-        <https://bitbucket.org/pypa/setuptools/issues/417/adopt-distutils>`_
+:Issues/PRs: `setuptools/issues/417
+        <https://github.com/pypa/setuptools/issues/417>`_
 
-:Status: Under consideration.
+:Status: Complete.
 
 
 .. _`TUF`:
