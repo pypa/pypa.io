@@ -25,13 +25,15 @@ The PyPA publishes the `Python Packaging User Guide
 <https://packaging.python.org>`_, which is **the authoritative resource
 on how to package, publish, and install Python projects using current
 tools**. The User Guide provides a user introduction to packaging, and
-explains how to use these tools. In case you need to package Python
+explains how to use tools maintained by PyPA.
+
+If you need to package Python
 with other languages (for example, in a scientific Python package),
-the user guide also offers basic information about and links to
+the user guide also offers basic guidance and links to
 available third-party packaging options (for example, `conda-forge
 <https://conda-forge.org/>`_).
 
-For a listing of PyPA's important projects, see :ref:`the key projects
+For a listing of PyPA's projects, see :ref:`the key projects
 list <pypug:pypa_projects>`. The PyPA hosts projects on `GitHub
 <https://github.com/pypa>`_,
 and discusses issues on the `Packaging
