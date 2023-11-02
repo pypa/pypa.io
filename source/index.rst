@@ -2,6 +2,13 @@
 Python Packaging Authority
 ==========================
 
+.. note::
+
+   This documentation explains the PyPA working group and its projects.
+
+   If you wish to package a project, review the `Python Packaging User Guide
+   <https://packaging.python.org>`_ for information and guidance.   
+
 
 The Python Packaging Authority (PyPA) is a working group that maintains a core
 set of software projects used in Python packaging.
